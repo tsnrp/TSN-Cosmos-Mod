@@ -29,14 +29,16 @@
   "gui-color-friendly-station": "#0f8",
   "gui-color-not-friendly-station": "#f00",
   "gui-color-torpedo": "#8f0",
+  "gui-color-drone": "#8f4",
   "gui-color-mine": "#f08",
   "gui-color-buoy": "#0f4",
-  "gui-color-asteroid": "#f80",
+  "gui-color-asteroid": "#6f6546",
   "gui-color-monster": "#f0f",
   "gui-color-black-hole": "#ff8",
   "gui-color-deep-background": "#020",
   "gui-color-deep-background-image": "deep_back_tiled_image",
 
+  "comms-control-button-height": 40,
 
   // nebulas carry their own 2d display color
 
@@ -46,11 +48,14 @@
   "shield_splash_brightness_coeff": 0.3,
 
 
-  "player-fuel-use-coeff": 0.002,
-  "player-base-energy-use-coeff": 0.004,
-  "player-no_energy-speed-coeff": 0.2,
+  "player-fuel-use-coeff": 0.002, // this is multiplied by the ship's speed
+  "player-base-energy-use-coeff": 0.008, // This is multipled by the power use by all the engineering sliders
+  "player-no_energy-speed-coeff": 0.2, // this is how much the ship is slowed, overall, when it has no energy
   "player-shields-raised-energy-coeff": 2.0,
   "energyCostOfOneBeamShot": 1.0,
+
+  "energy_to_torp_cost": 150.0,
+  "torp_to_energy_cost": 100.0,
 
   "torpedo_homing_damage": 35,
   "torpedo_nuke_damage": 4,
@@ -59,21 +64,34 @@
   "torpedo_emp_damage_radius": 1000,
   "mine_trigger_radius": 500,
 
-  "player_heat_up_coeff": 0.0008,
-  "player_coolant_coeff": 0.0010,
+  "closest_scan_delay": 0.3,
+  "farthest_scan_delay": 20.0,
+
+  "player_heat_up_coeff": 0.0004,
+  "player_coolant_coeff": 0.00009,
+
+  "coolant_dot_active_color": "#0f0",
+  "coolant_dot_reserve_color": "#042",
+
+  "internal_color_ship_sillouette": "#444",
+  "internal_color_ship_lines": "#ccc",
+  "internal_color_ship_nodes": "#fff",
 
   "station-dock-drag-speed": 5.0,
 
   "serverNetworkPort": 2023,
-  "server-network-name": "Excelsior",
+  "server-network-name": "Cosmos Server",
+
+  "obscure_ip_typein_box_flag": 1,
 
   "server-network-mess-per-frame": 50,
   "client-network-mess-per-frame": 51,
 
-  "player-vision-base-distance": 15000,
-  "player-vision-science-coeff": 10,
+  "player-vision-base-distance": 50000,
+  "player-vision-science-coeff": 5,
 
   "clientContactDecayDelay": 1600,
+  "clientContactOldThreshold": 200,
 
 
   // game sfx
