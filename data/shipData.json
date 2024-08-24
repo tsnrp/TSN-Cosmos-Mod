@@ -24,7 +24,7 @@
       "artfileroot": "unknown",
       "meshscale": 10.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- data for cursor object, for use in mission edit tool scripts --------------------------------
@@ -34,7 +34,7 @@
       "artfileroot": "cursor",
       "meshscale": 10.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- Starbase data --------------------------------
@@ -50,7 +50,7 @@
       "internalsymmetry": 1,
       "exclusionradius": 120.0,
       "shields": [
-        100
+        200
       ],
       "hullpoints": 150,
       "roles": "station",
@@ -87,7 +87,7 @@
       "internalsymmetry": 1,
       "exclusionradius": 120.0,
       "shields": [
-        100
+        150
       ],
       "hullpoints": 100,
       "roles": "station"
@@ -106,7 +106,7 @@
       "internalsymmetry": 1,
       "exclusionradius": 120.0,
       "shields": [
-        100
+        150
       ],
       "hullpoints": 100,
       "roles": "station"
@@ -125,7 +125,7 @@
       "internalsymmetry": 1,
       "exclusionradius": 120.0,
       "shields": [
-        100
+        150
       ],
       "hullpoints": 100,
       "roles": "station"
@@ -144,7 +144,7 @@
       "internalsymmetry": 1,
       "exclusionradius": 120.0,
       "shields": [
-        100
+        150
       ],
       "hullpoints": 100,
       "roles": "station,carrier",
@@ -193,7 +193,7 @@
       "exclusionradius": 120.0,
       "drone_launch_timer": 30,
       "shields": [
-        100
+        150
       ],
       "hullpoints": 100,
       "roles": "station",
@@ -230,7 +230,7 @@
       "internalsymmetry": 1,
       "exclusionradius": 120.0,
       "shields": [
-        100
+        150
       ],
       "hullpoints": 100,
       "roles": "station",
@@ -375,7 +375,7 @@
       "meshrotate": 0,
       "long_desc": "TSN Light Cruiser^Standard long patrol vessel of the TSN.^2 forward beams^2 Torpedo tubes^Stores for 2 nukes, 8 homing, 6 mines, 4 EMP, 2 PShock.",
       "tubecount": 2,
-      "torpedostart": [ { "Homing": 8 }, { "Nuke": 2 }, {  "EMP": 4}, {  "Mine": 6} ],
+      "torpedostart": [ { "Homing": 8 }, { "Nuke": 2 }, {  "EMP": 4}, {  "Mine": 6}, {  "BingBang": 6} ],
 //      "torpedostart": {"Homing": 8, "Nuke": 2, "EMP": 4, "Mine": 6 },
       
       "internalmapscale": 1.0,
@@ -429,16 +429,16 @@
           {
             "position": [
               -82.237060546875,
-              4.95822143554688,
-              -238.877197265625
+              21.95822143554688,
+              -243.877197265625
             ],
             "color": "blue"
           },
           {
             "position": [
               82.237060546875,
-              4.95822143554688,
-              -238.877197265625
+              21.95822143554688,
+              -243.877197265625
             ],
             "color": "blue"
           },
@@ -454,7 +454,7 @@
             "position": [
               0.0,
               29.4022521972656,
-              -278.493286132812
+              -288.493286132812
             ],
             "color": "blue"
           }
@@ -490,53 +490,39 @@
         50,
         50
       ],
-      "hullpoints": 3,
+      "hullpoints": 1,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
             "position": [
               0.0,
-              8.84798622131348,
-              61.935905456543
+              -20.0,
+              5.0
             ],
             "color": "green",
             "arccolor": "#090",
             "cycle_time": 2,
             "damage_coeff": 0.1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
+            "barrel_angle": 0
+
           }
         ],
         "exhaust": [
           {
             "position": [
-              19.2709140777588,
-              1.16793417930603,
-              -86.7102661132812
+              19.0,
+              -5.0,
+              -116.0
             ],
             "color": "blue"
           },
           {
             "position": [
-              18.846212387085,
-              -11.8916931152344,
-              -86.5156097412109
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              -19.2709140777588,
-              1.16793417930603,
-              -86.7102661132812
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              -18.846212387085,
-              -11.8916931152344,
-              -86.5156097412109
+              -19.0,
+              -5.0,
+              -116.0
             ],
             "color": "blue"
           }
@@ -578,15 +564,16 @@
           {
             "position": [
               0.0,
-              2.35863637924194,
-              84.9603881835938
+              -24.0,
+              5.0
             ],
             "color": "green",
             "arccolor": "#090",
             "cycle_time": 2,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
+            "barrel_angle": 0
           }
         ],
         "exhaust": [
@@ -660,15 +647,16 @@
           {
             "position": [
               0.0,
-              2.70241236686707,
-              97.3435363769531
+              -25.0,
+              5.0
             ],
             "color": "green",
             "arccolor": "#090",
             "cycle_time": 2,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
+            "barrel_angle": 0
           }
         ],
         "exhaust": [
@@ -799,25 +787,33 @@
         "exhaust": [
           {
             "position": [
-              104.723266601562,
-              55.6342391967773,
-              -257.048034667969
+              109,
+              65,
+              -257
             ],
             "color": "blue"
           },
           {
             "position": [
-              -104.723266601562,
-              55.6342391967773,
-              -257.048034667969
+              -109,
+              65,
+              -257
             ],
             "color": "blue"
           },
           {
             "position": [
               0.0,
-              18.1480655670166,
-              -295.129211425781
+              30,
+              -295
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              0.0,
+              -9,
+              -295
             ],
             "color": "blue"
           }
@@ -889,25 +885,49 @@
         "exhaust": [
           {
             "position": [
-              97.1709976196289,
-              -9.85900020599365,
-              -207.244995117188
+              97.0,
+              -4.0,
+              -212.0
             ],
             "color": "blue"
           },
           {
             "position": [
-              -97.1709976196289,
-              -9.85900020599365,
-              -207.244995117188
+              -97.0,
+              -4.0,
+              -212.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              -49.0,
+              13.0,
+              -250.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              49.0,
+              13.0,
+              -250.0
             ],
             "color": "blue"
           },
           {
             "position": [
               0.0,
-              23.6189994812012,
-              -219.470001220703
+              24.0,
+              -224.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              0.0,
+              -10.0,
+              -224.0
             ],
             "color": "blue"
           }
@@ -976,17 +996,33 @@
         "exhaust": [
           {
             "position": [
-              97.1709976196289,
-              -9.85900020599365,
-              -207.244995117188
+              96.1709976196289,
+              -5.85900020599365,
+              -215.244995117188
             ],
             "color": "blue"
           },
           {
             "position": [
-              -97.1709976196289,
-              -9.85900020599365,
-              -207.244995117188
+              -96.1709976196289,
+              -5.85900020599365,
+              -215.244995117188
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              50.1709976196289,
+              13.85900020599365,
+              -255.244995117188
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              -50.1709976196289,
+              13.85900020599365,
+              -255.244995117188
             ],
             "color": "blue"
           },
@@ -994,7 +1030,15 @@
             "position": [
               0.0,
               23.6189994812012,
-              -219.470001220703
+              -234.470001220703
+            ],
+            "color": "blue"
+ 	  },
+          {
+            "position": [
+              0.0,
+              -10.6189994812012,
+              -229.470001220703
             ],
             "color": "blue"
           }
@@ -1030,7 +1074,7 @@
         200,
         160
       ],
-      "hullpoints": 4,
+      "hullpoints": 5,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -1094,8 +1138,24 @@
           {
             "position": [
               0.0,
-              30.1760005950928,
-              -280.385009765625
+              30.0,
+              -280.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              0.0,
+              -9.0,
+              -280.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              0.0,
+              104.0,
+              -180.0
             ],
             "color": "blue"
           },
@@ -1170,7 +1230,7 @@
             "position": [
               130.431,
               -11.186,
-              -272.095
+              -282.095
             ],
             "color": "blue"
           },
@@ -1178,7 +1238,23 @@
             "position": [
               -130.431,
               -11.186,
-              -272.095
+              -282.095
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              65.431,
+              10.186,
+              -245.095
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              -65.431,
+              10.186,
+              -245.095
             ],
             "color": "blue"
           },
@@ -1186,7 +1262,15 @@
             "position": [
               0.0,
               28.023,
-              -195.166
+              -215.166
+            ],
+            "color": "blue"
+	  },
+          {
+            "position": [
+              0.0,
+              -20.023,
+              -205.166
             ],
             "color": "blue"
           }
@@ -1222,7 +1306,7 @@
         70,
         70
       ],
-      "hullpoints": 1,
+      "hullpoints": 2,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -1261,7 +1345,7 @@
             "position": [
               0.0,
               23.646,
-              -195.166
+              -230.166
             ],
             "color": "blue"
           }
@@ -1298,7 +1382,7 @@
         400,
         260
       ],
-      "hullpoints": 8,
+      "hullpoints": 9,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -1361,17 +1445,17 @@
         "exhaust": [
           {
             "position": [
-              48.779,
+              47.779,
               7.195,
-              -210.41
+              -225.41
             ],
             "color": "blue"
           },
           {
             "position": [
-              -48.779,
+              -47.779,
               7.195,
-              -210.41
+              -225.41
             ],
             "color": "blue"
           },
@@ -1379,7 +1463,7 @@
             "position": [
               83.794,
               -6.542,
-              -241.445
+              -256.445
             ],
             "color": "blue"
           },
@@ -1387,7 +1471,39 @@
             "position": [
               -83.794,
               -6.542,
-              -241.445
+              -256.445
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              77.794,
+              41.542,
+              -267.445
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              -77.794,
+              41.542,
+              -267.445
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              116.794,
+              -7.542,
+              -252.445
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              -116.794,
+              -7.542,
+              -252.445
             ],
             "color": "blue"
           },
@@ -1395,7 +1511,15 @@
             "position": [
               0.0,
               22.358,
-              -236.371
+              -251.371
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              0.0,
+              -10.358,
+              -243.371
             ],
             "color": "blue"
           }
@@ -1431,14 +1555,14 @@
         150,
         120
       ],
-      "hullpoints": 5,
+      "hullpoints": 4,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
             "position": [
               0.0,
-              -33.906,
-              -255.214
+              86.0,
+              -175.0
             ],
             "color": "green",
             "arccolor": "#090",
@@ -1452,9 +1576,17 @@
         "exhaust": [
           {
             "position": [
-              -107.648,
-              64.981,
-              -234.445
+              -83.0,
+              23.0,
+              -234.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              83.0,
+              23.0,
+              -234.0
             ],
             "color": "blue"
           },
@@ -1462,15 +1594,31 @@
             "position": [
               0.0,
               30.0,
-              -269.534
+              -284.534
             ],
             "color": "blue"
           },
           {
             "position": [
-              107.648,
-              64.981,
-              -234.445
+              0.0,
+              -10.0,
+              -279.534
+            ],
+            "color": "blue"
+                    },
+          {
+            "position": [
+              0.0,
+              105.0,
+              -175.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              0.0,
+              -89.0,
+              -175.0
             ],
             "color": "blue"
           }
@@ -1501,7 +1649,7 @@
       "ship_energy_cost": 0.8,
       "warp_energy_cost": 0.8,
       "jump_energy_cost": 1.3,
-      "roles": "ship,support,patrol,light",
+      "roles": "ship,support,patrol,light,defender",
       "shields": [
         90,
         90
@@ -1667,28 +1815,36 @@
         "exhaust": [
           {
             "position": [
-              105.327827453613,
-              -39.7785377502441,
-              -263.52294921875
+              -93,
+              14,
+              -245
             ],
             "color": "blue"
           },
           {
             "position": [
-              -105.327827453613,
-              -39.7785377502441,
-              -263.52294921875
+              -42,
+              15,
+              -260
             ],
             "color": "blue"
           },
           {
             "position": [
-              0.0,
-              -55.2056121826172,
-              -262.912902832031
+              42,
+              15,
+              -260            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              93,
+              14,
+              -245
             ],
             "color": "blue"
           }
+
         ]
       }
     },
@@ -1716,7 +1872,7 @@
       "ship_energy_cost": 0.8,
       "warp_energy_cost": 0.8,
       "jump_energy_cost": 2.0,
-      "roles": "ship,support,patrol,light",
+      "roles": "ship,support,patrol,light,defender",
       "shields": [
         80,
         80
@@ -1774,7 +1930,7 @@
             "position": [
               -28.6708393096924,
               10.7746868133545,
-              -121.157424926758
+              -134.157424926758
             ],
             "color": "blue"
           },
@@ -1782,7 +1938,7 @@
             "position": [
               28.6708393096924,
               10.7746868133545,
-              -121.157424926758
+              -134.157424926758
             ],
             "color": "blue"
           }
@@ -1869,7 +2025,7 @@
             "position": [
               -86.904,
               17.905,
-              -232.103
+              -242.103
             ],
             "color": "blue"
           },
@@ -1877,7 +2033,7 @@
             "position": [
               86.904,
               17.905,
-              -232.103
+              -242.103
             ],
             "color": "blue"
           },
@@ -1885,7 +2041,7 @@
             "position": [
               0.0,
               -9.19834327697754,
-              -270.295318603516
+              -277.295318603516
             ],
             "color": "blue"
           },
@@ -1893,7 +2049,7 @@
             "position": [
               0.0,
               29.5803546905518,
-              -270.295318603516
+              -277.295318603516
             ],
             "color": "blue"
           }
@@ -1929,7 +2085,7 @@
         80,
         80
       ],
-      "hullpoints": 3,
+      "hullpoints": 2,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -1950,8 +2106,16 @@
         "exhaust": [
           {
             "position": [
-              0.0,
-              33.386100769043,
+              55.0,
+              16.386100769043,
+              -270.345001220703
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              -55.0,
+              16.386100769043,
               -270.345001220703
             ],
             "color": "blue"
@@ -1959,8 +2123,16 @@
           {
             "position": [
               0.0,
+              33.386100769043,
+              -280.345001220703
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              0.0,
               -6.68325042724609,
-              -270.345001220703
+              -275.345001220703
             ],
             "color": "blue"
           }
@@ -2090,7 +2262,7 @@
         350,
         350
       ],
-      "hullpoints": 3,
+      "hullpoints": 4,
       "long_desc": "Displacement: 80 kt. Armament: 6 medium beams, 1 drone launcher.",
       "internalmapscale": 1.0,
       "internalmapw": 19,
@@ -2254,7 +2426,7 @@
         400,
         400
       ],
-      "hullpoints": 4,
+      "hullpoints": 5,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -2391,7 +2563,7 @@
         600,
         600
       ],
-      "hullpoints": 5,
+      "hullpoints": 6,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -2579,7 +2751,7 @@
       "artfileroot": "ArvoFighter",
       "meshscale": 0.025,
       "radarscale": 0.3,
-      "exclusionradius": 10.0,
+      "exclusionradius": 40.0,
       "meshrotate": 2,
       "long_desc": "Displacement: 0.015 kt. Armament: 2 light beams.",
       "internalmapscale": 1.0,
@@ -2602,28 +2774,28 @@
         "beam Primary Beams": [
           {
             "position": [
-              -1.76328,
-              -0.7734,
-              -7.70034
+              -72.0,
+              -2.0,
+              -255.0
             ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 5,
-            "damage_coeff": 1,
+            "damage_coeff": 0.1,
             "range": 800,
             "arcwidth": 144,
             "barrel_angle": 0
           },
           {
             "position": [
-              1.76328,
-              -0.7734,
-              -7.70034
+              72.0,
+              -2.0,
+              -255.0
             ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 5,
-            "damage_coeff": 1,
+            "damage_coeff": 0.1,
             "range": 800,
             "arcwidth": 144,
             "barrel_angle": 0
@@ -2632,17 +2804,17 @@
         "exhaust": [
           {
             "position": [
-              -2.19009,
-              -0.08199,
-              3.63414
+              -71.19009,
+              6.08199,
+              150.63414
             ],
             "color": "orange"
           },
           {
             "position": [
-              2.19009,
-              -0.08199,
-              3.63414
+              71.19009,
+              -6.08199,
+              150.63414
             ],
             "color": "orange"
           }
@@ -2738,17 +2910,33 @@
         "exhaust": [
           {
             "position": [
-              -182.948822021484,
+              -193.948822021484,
               -43.4752807617188,
-              199.774856567383
+              222.774856567383
             ],
             "color": "orange"
           },
           {
             "position": [
-              182.948822021484,
+              193.948822021484,
               -43.4752807617188,
-              199.774856567383
+              222.774856567383
+            ],
+            "color": "orange"
+          },
+          {
+            "position": [
+              -38.0,
+              10.0,
+              200.0
+            ],
+            "color": "orange"
+          },
+          {
+            "position": [
+              38.0,
+              10.0,
+              200.0
             ],
             "color": "orange"
           }
@@ -2845,25 +3033,25 @@
         "exhaust": [
           {
             "position": [
-              -187.784561157227,
-              -25.8755416870117,
-              323.734558105469
+              -201.784561157227,
+              -27.8755416870117,
+              375.734558105469
             ],
             "color": "orange"
           },
           {
             "position": [
-              187.784561157227,
-              -25.8755416870117,
-              323.734558105469
+              201.784561157227,
+              -27.8755416870117,
+              375.734558105469
             ],
             "color": "orange"
           },
           {
             "position": [
               0.0,
-              13.5629482269287,
-              159.97639465332
+              10.0,
+              210.0
             ],
             "color": "orange"
           }
@@ -2990,7 +3178,7 @@
             "position": [
               -181.097808837891,
               -30.4412136077881,
-              377.541961669922
+              460.541961669922
             ],
             "color": "orange"
           },
@@ -2998,7 +3186,15 @@
             "position": [
               181.097808837891,
               -30.4412136077881,
-              377.541961669922
+              460.541961669922
+            ],
+            "color": "orange"
+          },
+          {
+            "position": [
+              0.0,
+              5.0,
+              290.0
             ],
             "color": "orange"
           }
@@ -4378,7 +4574,7 @@
             "position": [
               43.1223220825195,
               -5.88570880889893,
-              281.222198486328
+              121.222198486328
             ],
             "color": "yellow",
             "arccolor": "#500",
@@ -4392,7 +4588,7 @@
             "position": [
               -43.1223220825195,
               -5.88570880889893,
-              281.222198486328
+              121.222198486328
             ],
             "color": "yellow",
             "arccolor": "#500",
@@ -4437,7 +4633,7 @@
         80,
         80
       ],
-      "hullpoints": 3,
+      "hullpoints": 2,
       "long_desc": "Scout class vessel^1 forward beams^1 Torpedo tube^Stores for 8 homing, 2 EMP, 1 Mine, 1 PShock.^Most common of the pirate fleet.",
       "tubecount": 1,
       "torpedostart": [ { "Homing": 8 }, { "Nuke": 0 }, {  "EMP": 2}, {  "Mine": 1} ],
@@ -4475,17 +4671,33 @@
             "position": [
               -50.2840347290039,
               -26.6387996673584,
-              -213.061477661133
+              -233.061477661133
             ],
-            "color": "blue"
+            "color": "purple"
           },
           {
             "position": [
               50.2840347290039,
               -26.6387996673584,
-              -213.061477661133
+              -233.061477661133
             ],
-            "color": "blue"
+            "color": "purple"
+          },
+          {
+            "position": [
+              -50.2840347290039,
+              -60.6387996673584,
+              -233.061477661133
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              50.2840347290039,
+              -60.6387996673584,
+              -233.061477661133
+            ],
+            "color": "purple"
           }
         ]
       }
@@ -4504,7 +4716,7 @@
         100,
         100
       ],
-      "hullpoints": 6,
+      "hullpoints": 4,
       "long_desc": "Cruiser of the pirate fleet.^Pirate raider.^4 forward beams^2 Torpedo tubes^Stores for 12 homing, 12 EMP, 2 Mines,  8 PShock.",
       "tubecount": 2,
       "torpedostart": [ { "Homing": 12 }, { "Nuke": 0 }, {  "EMP": 12}, {  "Mine": 2} ],
@@ -4582,35 +4794,59 @@
         "exhaust": [
           {
             "position": [
-              -103.598770141602,
-              10.3027496337891,
-              -607.576599121094
+              -400.0,
+              -137.0,
+              -657.576599121094
             ],
-            "color": "blue"
+            "color": "purple"
           },
           {
             "position": [
-              103.598770141602,
-              10.3027496337891,
-              -607.576599121094
+              400.0,
+              -137.0,
+              -657.576599121094
             ],
-            "color": "blue"
+            "color": "purple"
+          },
+          {
+            "position": [
+              -101.598770141602,
+              20.3027496337891,
+              -657.576599121094
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              101.598770141602,
+              20.3027496337891,
+              -657.576599121094
+            ],
+            "color": "purple"
           },
           {
             "position": [
               -235.820663452148,
               -54.4784965515137,
-              -627.266052246094
+              -657.266052246094
             ],
-            "color": "blue"
+            "color": "purple"
           },
           {
             "position": [
               235.820663452148,
               -54.4784965515137,
-              -627.266052246094
+              -657.266052246094
             ],
-            "color": "blue"
+            "color": "purple"
+          },
+          {
+            "position": [
+              0.0,
+              54.0,
+              -707.0
+            ],
+            "color": "purple"
           }
         ]
       }
@@ -4629,7 +4865,7 @@
         100,
         100
       ],
-      "hullpoints": 3,
+      "hullpoints": 5,
       "long_desc": "Pirate corvette and light carrier.^2 forward beams, 1 rear beam^2 Torpedo tubes^Stores for 12 homing, 4 Mines, 12 EMP, 8 PShock.",
       "tubecount": 2,
       "torpedostart": [ { "Homing": 12 }, { "Nuke": 0 }, {  "EMP": 12}, {  "Mine": 4} ],
@@ -4694,35 +4930,67 @@
         "exhaust": [
           {
             "position": [
-              -248.324996948242,
-              -3.33500003814697,
-              -550.747009277344
+              -248.325,
+              -3.335,
+              -570.747
             ],
-            "color": "blue"
+            "color": "purple"
           },
           {
             "position": [
-              248.324996948242,
-              -3.33500003814697,
-              -550.747009277344
+              248.325,
+              -3.335,
+              -570.747
             ],
-            "color": "blue"
+            "color": "purple"
+          },
+	  {
+            "position": [
+              -190.0,
+              -3.335,
+              -570.747
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              190.0,
+              -3.335,
+              -570.747
+            ],
+            "color": "purple"
           },
           {
             "position": [
               -99.4990005493164,
               32.8330001831055,
-              -604.247985839844
+              -624.247985839844
             ],
-            "color": "blue"
+            "color": "purple"
           },
           {
             "position": [
               99.4990005493164,
               32.8330001831055,
-              -604.247985839844
+              -624.247985839844
             ],
-            "color": "blue"
+            "color": "purple"
+          },
+          {
+            "position": [
+              0.0,
+              54.0,
+              -580.0
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              0.0,
+              -16.0,
+              -580.0
+            ],
+            "color": "purple"
           }
         ]
       }
@@ -4741,7 +5009,7 @@
         15,
         15
       ],
-      "hullpoints": 3,
+      "hullpoints": 1,
       "long_desc": "Ximni single seat fighter.",
       "internalmapscale": 1.0,
       "internalmapw": 7,
@@ -4759,13 +5027,13 @@
           {
             "position": [
               30.7361335754395,
-              -4.19513463973999,
-              200.445678710938
+              -30.19513463973999,
+              80.445678710938
             ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 5,
-            "damage_coeff": 1,
+            "damage_coeff": 0.1,
             "range": 800,
             "arcwidth": 90,
             "barrel_angle": 0
@@ -4773,13 +5041,13 @@
           {
             "position": [
               -30.7361335754395,
-              -4.19513463973999,
-              200.445678710938
+              -30.19513463973999,
+              80.445678710938
             ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 5,
-            "damage_coeff": 1,
+            "damage_coeff": 0.1,
             "range": 800,
             "arcwidth": 90,
             "barrel_angle": 0
@@ -4790,9 +5058,9 @@
             "position": [
               0.0,
               -8.2947473526001,
-              44.0802307128906
+              -64.0802307128906
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -4894,7 +5162,7 @@
               -32.1579895019531,
               -313.933868408203
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
@@ -4902,7 +5170,7 @@
               -32.1579895019531,
               -313.933868408203
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -4974,17 +5242,17 @@
             "position": [
               -104.166748046875,
               -14.0811014175415,
-              -257.993682861328
+              -277.993682861328
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
               104.166748046875,
               -14.0811014175415,
-              -257.993682861328
+              -277.993682861328
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5003,7 +5271,7 @@
         85,
         85
       ],
-      "hullpoints": 3,
+      "hullpoints": 2,
       "long_desc": "Standard local patrol ship of the Ximni fleet. Two forward beams.",
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -5015,7 +5283,7 @@
       "ship_energy_cost": 1,
       "warp_energy_cost": 1.2,
       "jump_energy_cost": 0.5,
-      "roles": "ship,warship,patrol,support",
+      "roles": "ship,warship,patrol,support,defender",
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -5054,7 +5322,7 @@
               -9.34788417816162,
               -183.524749755859
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5124,19 +5392,19 @@
         "exhaust": [
           {
             "position": [
-              -108.58,
+              -104.0,
               0.0,
-              -103.998
+              -113.998
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
               104.0,
               0.0,
-              -93.767
+              -113.767
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
@@ -5144,7 +5412,7 @@
               0.0,
               -93.767
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5213,17 +5481,17 @@
             "position": [
               -152.435,
               -36.74,
-              -310.144
+              -320.144
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
               152.435,
               -36.74,
-              -310.144
+              -320.144
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5274,7 +5542,7 @@
             "damage_coeff": 1,
             "range": 2600,
             "arcwidth": 180,
-            "barrel_angle": 335
+            "barrel_angle": 330
           },
           {
             "position": [
@@ -5288,7 +5556,7 @@
             "damage_coeff": 1,
             "range": 2600,
             "arcwidth": 180,
-            "barrel_angle": 75
+            "barrel_angle": 30
           },
           {
             "position": [
@@ -5326,7 +5594,7 @@
               -3.40140986442566,
               -255.066024780273
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
@@ -5334,7 +5602,7 @@
               -10.4201927185059,
               -235.767944335938
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
@@ -5342,7 +5610,7 @@
               -3.40140986442566,
               -255.066024780273
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
@@ -5350,7 +5618,7 @@
               -10.4201927185059,
               -235.767944335938
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5381,7 +5649,7 @@
       "ship_energy_cost": 1,
       "warp_energy_cost": 1.1,
       "jump_energy_cost": 0.6,
-      "roles": "ship,warship,support,patrol",
+      "roles": "ship,warship,support,patrol,defender",
       "hull_port_sets": {
         "beam Primary Beams": [
           {
@@ -5418,9 +5686,25 @@
             "position": [
               0.0,
               10.2304258346558,
-              -99.249397277832
+              -119.249397277832
             ],
-            "color": "blue"
+            "color": "yellow"
+          },
+	  {
+            "position": [
+              30.0,
+              -40.0,
+              -142.0
+            ],
+            "color": "yellow"
+          },
+	  {
+            "position": [
+              -30.0,
+              -40.0,
+              -142.0
+            ],
+            "color": "yellow"
           }
         ]
       }
@@ -5473,17 +5757,17 @@
             "position": [
               0.0,
               10.2304258346558,
-              -99.249397277832
+              -119.249397277832
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [ 27.682, -39.835, -132.326 ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [ -27.682, -39.835, -132.326 ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5502,7 +5786,7 @@
         110,
         100
       ],
-      "hullpoints": 4,
+      "hullpoints": 3,
       "long_desc": "Standard long range patrol ship of the Ximni fleet. ^3 beams^2 Torpedo tubes^Stores for 8 homing, 2 nukes, 4 EMP, 6 mines, 2 PShock.",
       "tubecount": 2,
       "torpedostart": [ { "Homing": 8 }, { "Nuke": 2 }, {  "EMP": 4}, {  "Mine": 6} ],
@@ -5569,17 +5853,17 @@
             "position": [
               -96.1714706420898,
               -0.775860071182251,
-              -300.939208984375
+              -310.939208984375
             ],
-            "color": "blue"
+            "color": "yellow"
           },
           {
             "position": [
               96.1714706420898,
               -0.775860071182251,
-              -300.939208984375
+              -310.939208984375
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5633,9 +5917,9 @@
             "position": [
               0.0,
               -9.0,
-              -355.594181
+              -375.594181
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5654,7 +5938,7 @@
         90,
         90
       ],
-      "hullpoints": 3,
+      "hullpoints": 2,
       "long_desc": "Ximni Scout^Long range scout vessel of the Ximni.^1 forward beam^1 Torpedo tube^Stores for 6 homing, 2 EMP, 2 mines, 1 PShock.",
       "tubecount": 1,
       "torpedostart": [ { "Homing": 6 }, { "Nuke": 0 }, {  "EMP": 2}, {  "Mine": 1} ],
@@ -5694,7 +5978,7 @@
               -11.4899024963379,
               -254.488632202148
             ],
-            "color": "blue"
+            "color": "yellow"
           }
         ]
       }
@@ -5705,9 +5989,10 @@
       "name": "Alien Object 1A",
       "side": "pickup",
       "artfileroot": "alien1_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5715,9 +6000,10 @@
       "name": "Alien Object 1B",
       "side": "pickup",
       "artfileroot": "alien1_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5725,9 +6011,10 @@
       "name": "Alien Object 1C",
       "side": "pickup",
       "artfileroot": "alien1_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5735,9 +6022,10 @@
       "name": "Alien Object 2A",
       "side": "pickup",
       "artfileroot": "alien2_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5745,9 +6033,10 @@
       "name": "Alien Object 2B",
       "side": "pickup",
       "artfileroot": "alien2_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5755,9 +6044,10 @@
       "name": "Alien Object 2C",
       "side": "pickup",
       "artfileroot": "alien2_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5765,9 +6055,10 @@
       "name": "Alien Object 3A",
       "side": "pickup",
       "artfileroot": "alien3_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5775,9 +6066,10 @@
       "name": "Alien Object 3B",
       "side": "pickup",
       "artfileroot": "alien3_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5785,9 +6077,10 @@
       "name": "Alien Object 3C",
       "side": "pickup",
       "artfileroot": "alien3_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5795,9 +6088,10 @@
       "name": "Alien Object 4A",
       "side": "pickup",
       "artfileroot": "alien4_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5805,9 +6099,10 @@
       "name": "Alien Object 4B",
       "side": "pickup",
       "artfileroot": "alien4_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5815,9 +6110,10 @@
       "name": "Alien Object 4C",
       "side": "pickup",
       "artfileroot": "alien4_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5825,9 +6121,10 @@
       "name": "Alien Object 5A",
       "side": "pickup",
       "artfileroot": "alien5_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5835,9 +6132,10 @@
       "name": "Alien Object 5B",
       "side": "pickup",
       "artfileroot": "alien5_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5845,9 +6143,10 @@
       "name": "Alien Object 5C",
       "side": "pickup",
       "artfileroot": "alien5_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5855,9 +6154,10 @@
       "name": "Alien Small 1A",
       "side": "pickup",
       "artfileroot": "alien1lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5865,9 +6165,10 @@
       "name": "Alien Small 1B",
       "side": "pickup",
       "artfileroot": "alien1lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5875,9 +6176,10 @@
       "name": "Alien Small 1C",
       "side": "pickup",
       "artfileroot": "alien1lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5885,9 +6187,10 @@
       "name": "Alien Small 2A",
       "side": "pickup",
       "artfileroot": "alien2lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5895,9 +6198,10 @@
       "name": "Alien Small 2B",
       "side": "pickup",
       "artfileroot": "alien2lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5905,9 +6209,10 @@
       "name": "Alien Small 2C",
       "side": "pickup",
       "artfileroot": "alien2lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5915,9 +6220,10 @@
       "name": "Alien Small 3A",
       "side": "pickup",
       "artfileroot": "alien3lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5925,9 +6231,10 @@
       "name": "Alien Small 3B",
       "side": "pickup",
       "artfileroot": "alien3lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5935,9 +6242,10 @@
       "name": "Alien Small 3C",
       "side": "pickup",
       "artfileroot": "alien3lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5945,9 +6253,10 @@
       "name": "Alien Small 4A",
       "side": "pickup",
       "artfileroot": "alien4lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5955,9 +6264,10 @@
       "name": "Alien Small 4B",
       "side": "pickup",
       "artfileroot": "alien4lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5965,9 +6275,10 @@
       "name": "Alien Small 4C",
       "side": "pickup",
       "artfileroot": "alien4lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5975,9 +6286,10 @@
       "name": "Alien Small 5A",
       "side": "pickup",
       "artfileroot": "alien5lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5985,9 +6297,10 @@
       "name": "Alien Small 5B",
       "side": "pickup",
       "artfileroot": "alien5lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -5995,9 +6308,10 @@
       "name": "Alien Small 5C",
       "side": "pickup",
       "artfileroot": "alien5lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6005,9 +6319,10 @@
       "name": "Danger Object 1A",
       "side": "pickup",
       "artfileroot": "mine1_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
+      "exclusionradius": 0.0,
+      "interactionradius": 603.0
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6015,560 +6330,560 @@
       "name": "Danger Object 1B",
       "side": "pickup",
       "artfileroot": "mine1_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_1c",
       "name": "Danger Object 1C",
       "side": "pickup",
       "artfileroot": "mine1_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_2a",
       "name": "Danger Object 2A",
       "side": "pickup",
       "artfileroot": "mine2_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_2b",
       "name": "Danger Object 2B",
       "side": "pickup",
       "artfileroot": "mine2_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_2c",
       "name": "Danger Object 2C",
       "side": "pickup",
       "artfileroot": "mine2_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_3a",
       "name": "Danger Object 3A",
       "side": "pickup",
       "artfileroot": "mine3_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_3b",
       "name": "Danger Object 3B",
       "side": "pickup",
       "artfileroot": "mine3_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_3c",
       "name": "Danger Object 3C",
       "side": "pickup",
       "artfileroot": "mine3_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_4a",
       "name": "Danger Object 4A",
       "side": "pickup",
       "artfileroot": "mine4_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_4b",
       "name": "Danger Object 4B",
       "side": "pickup",
       "artfileroot": "mine4_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_4c",
       "name": "Danger Object 4C",
       "side": "pickup",
       "artfileroot": "mine4_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_5a",
       "name": "Danger Object 5A",
       "side": "pickup",
       "artfileroot": "mine5_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_5b",
       "name": "Danger Object 5B",
       "side": "pickup",
       "artfileroot": "mine5_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_5c",
       "name": "Danger Object 5C",
       "side": "pickup",
       "artfileroot": "mine5_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_1a",
       "name": "Danger Small 1A",
       "side": "pickup",
       "artfileroot": "mine1lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_1b",
       "name": "Danger Small 1B",
       "side": "pickup",
       "artfileroot": "mine1lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_1c",
       "name": "Danger Small 1C",
       "side": "pickup",
       "artfileroot": "mine1lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_2a",
       "name": "Danger Small 2A",
       "side": "pickup",
       "artfileroot": "mine2lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_2b",
       "name": "Danger Small 2B",
       "side": "pickup",
       "artfileroot": "mine2lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_2c",
       "name": "Danger Small 2C",
       "side": "pickup",
       "artfileroot": "mine2lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_3a",
       "name": "Danger Small 3A",
       "side": "pickup",
       "artfileroot": "mine3lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_3b",
       "name": "Danger Small 3B",
       "side": "pickup",
       "artfileroot": "mine3lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_3c",
       "name": "Danger Small 3C",
       "side": "pickup",
       "artfileroot": "mine3lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_4a",
       "name": "Danger Small 4A",
       "side": "pickup",
       "artfileroot": "mine4lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_4b",
       "name": "Danger Small 4B",
       "side": "pickup",
       "artfileroot": "mine4lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_4c",
       "name": "Danger Small 4C",
       "side": "pickup",
       "artfileroot": "mine4lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_5a",
       "name": "Danger Small 5A",
       "side": "pickup",
       "artfileroot": "mine5lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_5b",
       "name": "Danger Small 5B",
       "side": "pickup",
       "artfileroot": "mine5lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "danger_small_5c",
       "name": "Danger Small 5C",
       "side": "pickup",
       "artfileroot": "mine5lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_1a",
       "name": "Container Object 1A",
       "side": "pickup",
       "artfileroot": "container1_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_1b",
       "name": "Container Object 1B",
       "side": "pickup",
       "artfileroot": "container1_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_1c",
       "name": "Container Object 1C",
       "side": "pickup",
       "artfileroot": "container1_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_2a",
       "name": "Container Object 2A",
       "side": "pickup",
       "artfileroot": "container2_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_2b",
       "name": "Container Object 2B",
       "side": "pickup",
       "artfileroot": "container2_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_2c",
       "name": "Container Object 2C",
       "side": "pickup",
       "artfileroot": "container2_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_3a",
       "name": "Container Object 3A",
       "side": "pickup",
       "artfileroot": "container3_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_3b",
       "name": "Container Object 3B",
       "side": "pickup",
       "artfileroot": "container3_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_3c",
       "name": "Container Object 3C",
       "side": "pickup",
       "artfileroot": "container3_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_4a",
       "name": "Container Object 4A",
       "side": "pickup",
       "artfileroot": "container4_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_4b",
       "name": "Container Object 4B",
       "side": "pickup",
       "artfileroot": "container4_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_4c",
       "name": "Container Object 4C",
       "side": "pickup",
       "artfileroot": "container4_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_5a",
       "name": "Container Object 5A",
       "side": "pickup",
       "artfileroot": "container5_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_5b",
       "name": "Container Object 5B",
       "side": "pickup",
       "artfileroot": "container5_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_5c",
       "name": "Container Object 5C",
       "side": "pickup",
       "artfileroot": "container5_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_1a",
       "name": "Container Small 1A",
       "side": "pickup",
       "artfileroot": "container1lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_1b",
       "name": "Container Small 1B",
       "side": "pickup",
       "artfileroot": "container1lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_1c",
       "name": "Container Small 1C",
       "side": "pickup",
       "artfileroot": "container1lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_2a",
       "name": "Container Small 2A",
       "side": "pickup",
       "artfileroot": "container2lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_2b",
       "name": "Container Small 2B",
       "side": "pickup",
       "artfileroot": "container2lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_2c",
       "name": "Container Small 2C",
       "side": "pickup",
       "artfileroot": "container2lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_3a",
       "name": "Container Small 3A",
       "side": "pickup",
       "artfileroot": "container3lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_3b",
       "name": "Container Small 3B",
       "side": "pickup",
       "artfileroot": "container3lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_3c",
       "name": "Container Small 3C",
       "side": "pickup",
       "artfileroot": "container3lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_6a",
       "name": "Container Small 4A",
       "side": "pickup",
       "artfileroot": "container4lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_4b",
       "name": "Container Small 4B",
       "side": "pickup",
       "artfileroot": "container4lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_4c",
       "name": "Container Small 4C",
       "side": "pickup",
       "artfileroot": "container4lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     //{
     //---------------------------------- small object data --------------------------------
     //"key": "container_small_5a",
@@ -6576,10 +6891,10 @@
     // "name": "Container Small 5A",
     // "side": "pickup",
     // "artfileroot": "container5lod_a",
-    // "meshscale": 1.000000,
+    // "meshscale": 5.000000,
     // "radarscale": 1.0,
-    // "exclusionradius": 50.0
-    // },
+    // "exclusionradius": 0.0,
+    //       "interactionradius": 603.0},
     // {
     //---------------------------------- small object data --------------------------------
     //   "key": "container_small_5b",
@@ -6587,10 +6902,10 @@
     //   "name": "Container Small 5B",
     //   "side": "pickup",
     //   "artfileroot": "container5lod_b",
-    //   "meshscale": 1.000000,
+    //   "meshscale": 5.000000,
     //   "radarscale": 1.0,
-    //   "exclusionradius": 50.0
-    // },
+    //   "exclusionradius": 0.0,
+    //       "interactionradius": 603.0},
     // {
     //---------------------------------- small object data --------------------------------
     //  "key": "container_small_5c",
@@ -6598,40 +6913,40 @@
     //  "name": "Container Small 5C",
     //  "side": "pickup",
     //  "artfileroot": "container5lod_c",
-    //  "meshscale": 1.000000,
+    //  "meshscale": 5.000000,
     //  "radarscale": 1.0,
-    //  "exclusionradius": 50.0
-    //  },
+    //  "exclusionradius": 0.0,
+    //        "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_6a",
       "name": "Container Small 6A",
       "side": "pickup",
       "artfileroot": "container6lod_a",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 60.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_6b",
       "name": "Container Small 6B",
       "side": "pickup",
       "artfileroot": "container6lod_b",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 60.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "container_small_6c",
       "name": "Container Small 6C",
       "side": "pickup",
       "artfileroot": "container6lod_c",
-      "meshscale": 1.0,
+      "meshscale": 5.0,
       "radarscale": 1.0,
-      "exclusionradius": 60.0
-    },
+      "exclusionradius": 0.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "wreck",
@@ -6640,8 +6955,8 @@
       "artfileroot": "wreck",
       "meshscale": 0.06,
       "radarscale": 1.5,
-      "exclusionradius": 50.0
-    },
+      "exclusionradius": 50.0,
+          "interactionradius": 603.0},
     {
       //---------------------------------- small object data --------------------------------
       "key": "generic-cube",
@@ -6650,7 +6965,7 @@
       "artfileroot": "cube",
       "meshscale": 20.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6660,7 +6975,7 @@
       "artfileroot": "cylinder",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6670,7 +6985,7 @@
       "artfileroot": "dodecahedron",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6680,7 +6995,7 @@
       "artfileroot": "disk",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6690,7 +7005,7 @@
       "artfileroot": "hexagon",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6700,7 +7015,7 @@
       "artfileroot": "icosahedron",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6710,7 +7025,7 @@
       "artfileroot": "cone",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6720,7 +7035,7 @@
       "artfileroot": "octohedron",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6730,7 +7045,7 @@
       "artfileroot": "rectangle",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6740,7 +7055,7 @@
       "artfileroot": "sphere",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6750,7 +7065,7 @@
       "artfileroot": "tetrahedron",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     },
     {
       //---------------------------------- small object data --------------------------------
@@ -6760,7 +7075,7 @@
       "artfileroot": "torus",
       "meshscale": 1.0,
       "radarscale": 1.0,
-      "exclusionradius": 0.0
+      "exclusionradius": 0.0,
     }
   ]
 }
