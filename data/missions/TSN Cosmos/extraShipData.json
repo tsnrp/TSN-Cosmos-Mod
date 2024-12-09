@@ -1,0 +1,43 @@
+// game data file for Artemis Cosmos (Artemis 3), a multiplayer space game
+//
+// the raw format of this file is HJSON, which is a more human-usable variant of JSON.
+//
+// this is a comment line
+//
+// JSON is a key-value pair format, so you naturally see lines that look like:
+// "key": "value",  or sometimes "key": [ 8, 8, 8, 8 ], or a more complex nested set of data that starts with "key": [
+//
+
+{
+	"#credits-text": "Designed and programmed by^^Thom Robertson",
+    "#ship-list": [
+        {
+      //---------------------------------- Starbase data --------------------------------
+      "key": "jump_node",
+      "name": "Jump Node",
+      "side": "USFP",
+      "artfileroot": "gate_big",
+      "meshscale": 14.5201349258423,
+      "radarscale": 1.0,
+      "internalmapscale": 1.0,
+      "internalmapw": 30,
+      "internalmaph": 30,
+      "internalsymmetry": 1,
+      "exclusionradius": 120.0,
+      "shields": [
+        200
+      ],
+      "hullpoints": 150,
+      "roles": "node",
+      "hull_port_sets": {}
+    },
+    ]
+  
+  
+  }
+  // keep this end-of-file line, for parsing safety
+  
+  
+  
+  
+  
