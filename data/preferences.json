@@ -12,7 +12,7 @@
 
   // these are network values
   "serverNetworkPort": 2023,
-  "server-network-name": "Cosmos Server 2",
+  "server-network-name": "Cosmos Server",
 
   // these values control the internal rendering buffers for the 3d and 2d views
   "main-buff-width": 1920,
@@ -117,7 +117,7 @@
   "player-vision-base-distance": 25000,
   "player-vision-science-coeff": 2,
 
-  "clientContactDecayDelay": 1600,
+  "clientContactDecayDelay": 240,
   "clientContactOldThreshold": 200,
 
   "mouseWheelScaleCoeff": 1.0,
@@ -191,61 +191,75 @@
   "fonts": [
     {
       "tag": "smallest",
-      "filename": "CosmosGoldmanCond-12AA"
+      "filename": "GoldmanSansCd_Rg",
+      "size": 14
     },
     {
       "tag": "gui-1",
-      "filename": "CosmosGoldmanCond-16AA"
+      "filename": "GoldmanSansCd_Rg",
+      "size": 18
     },
     {
       "tag": "gui-2",
-      "filename": "CosmosGoldmanCond-20AA"
+      "filename": "GoldmanSansCd_Rg",
+      "size": 20
     },
     {
       "tag": "gui-3",
-      "filename": "CosmosGoldmanCond-24AA"
+      "filename": "Goldman-Bold",
+      "size": 24
     },
     {
       "tag": "gui-4",
-      "filename": "CosmosGoldmanCond-28AA"
+      "filename": "Goldman-Bold",
+      "size": 28
     },
     {
       "tag": "gui-5",
-      "filename": "CosmosGoldmanCond-32AA"
+      "filename": "Goldman-Bold",
+      "size": 32
     },
     {
       "tag": "gui-6",
-      "filename": "CosmosGoldmanCond-48AA"
+      "filename": "Goldman-Bold",
+      "size": 48
     }
   ],
   "large_fonts": [
     {
       "tag": "smallest",
-      "filename": "CosmosGoldmanCond-20AA"
+      "filename": "Goldman-Bold",
+      "size": 20
     },
     {
       "tag": "gui-1",
-      "filename": "CosmosGoldmanCond-24AA"
+      "filename": "Goldman-Bold",
+      "size": 24
     },
     {
       "tag": "gui-2",
-      "filename": "CosmosGoldmanCond-28AA"
+      "filename": "Goldman-Bold",
+      "size": 28
     },
     {
       "tag": "gui-3",
-      "filename": "CosmosGoldmanReg-32AA"
+      "filename": "Goldman-Bold",
+      "size": 32
     },
     {
       "tag": "gui-4",
-      "filename": "CosmosGoldmanCond-48AA"
+      "filename": "Goldman-Bold",
+      "size": 48
     },
     {
       "tag": "gui-5",
-      "filename": "CosmosGoldmanCond-32AA"
+      "filename": "Goldman-Bold",
+      "size": 32
     },
     {
       "tag": "gui-6",
-      "filename": "CosmosGoldmanCond-48AA"
+      "filename": "Goldman-Bold",
+      "size": 48
     }
   ],
 
