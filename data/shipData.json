@@ -7934,7 +7934,7 @@
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/USFPStorage1",
       "meshscale": 1.0,
-      "radarscale": 1.0,,
+      "radarscale": 1.0,
       "exclusionradius": 120.0,
       "shields": [
         200
@@ -7950,7 +7950,7 @@
       "side": "pirate",
       "artfileroot": "TSN Mod/Pirate/PirateBaseMil",
       "meshscale": 1.0,
-      "radarscale": 1.0,,
+      "radarscale": 1.0,
       "exclusionradius": 120.0,
       "shields": [
         200
@@ -7966,7 +7966,7 @@
       "side": "kralien",
       "artfileroot": "TSN Mod/Hegemony/HegGen",
       "meshscale": 1.0,
-      "radarscale": 1.0,,
+      "radarscale": 1.0,
       "exclusionradius": 120.0,
       "shields": [
         200
@@ -7974,7 +7974,7 @@
       "hullpoints": 150,
       "roles": "generator",
       "hull_port_sets": {}
-    },
+    }
   ]
 }
 // keep this end-of-file line, for parsing safety
