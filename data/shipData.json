@@ -7897,7 +7897,7 @@
       "name": "Jump Node",
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/gate_big",
-      "meshscale": 0.2,
+      "meshscale": 14.0,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
       "internalmapw": 30,
