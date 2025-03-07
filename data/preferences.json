@@ -114,8 +114,8 @@
   "server-network-mess-per-frame": 5500,
   "client-network-mess-per-frame": 5510,
 
-  "player-vision-base-distance": 25000,
-  "player-vision-science-coeff": 2,
+  "player-vision-base-distance": 30000,
+  "player-vision-science-coeff": 5,
 
   "clientContactDecayDelay": 240,
   "clientContactOldThreshold": 200,
@@ -192,17 +192,17 @@
     {
       "tag": "smallest",
       "filename": "GoldmanSansCd_Rg",
-      "size": 14
+      "size": 16
     },
     {
       "tag": "gui-1",
       "filename": "GoldmanSansCd_Rg",
-      "size": 18
+      "size": 20
     },
     {
       "tag": "gui-2",
       "filename": "GoldmanSansCd_Rg",
-      "size": 20
+      "size": 22
     },
     {
       "tag": "gui-3",
