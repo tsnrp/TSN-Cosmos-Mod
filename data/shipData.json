@@ -264,7 +264,7 @@
       "exclusionradius": 120.0,
       "health": 100,
       "heal_rate": 0.1,
-      "roles": "charbdis,monster"
+      "roles": "charbdis,monster",
     },
     {
       //---------------------------------- asteroid data --------------------------------
@@ -400,9 +400,6 @@
         },
         {
           "Mine": 6
-        },
-        {
-          "BingBang": 6
         }
       ],
       //      "torpedostart": {"Homing": 8, "Nuke": 2, "EMP": 4, "Mine": 6 },
