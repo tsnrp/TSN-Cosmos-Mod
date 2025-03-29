@@ -264,7 +264,7 @@
       "exclusionradius": 120.0,
       "health": 100,
       "heal_rate": 0.1,
-      "roles": "charbdis,monster",
+      "roles": "charbdis,monster"
     },
     {
       //---------------------------------- asteroid data --------------------------------
@@ -7911,7 +7911,7 @@
       "roles": "node",
       "hull_port_sets": {}
     },
-	{
+    {
       //---------------------------------- Starbase data --------------------------------
       "key": "usfp_industrial_1",
       "name": "Industrial Unit",
@@ -7927,7 +7927,7 @@
       "roles": "industrial",
       "hull_port_sets": {}
     },
-	{
+    {
       //---------------------------------- Starbase data --------------------------------
       "key": "usfp_storage_1",
       "name": "Storage Module",
@@ -7943,7 +7943,7 @@
       "roles": "industrial",
       "hull_port_sets": {}
     },
-	{
+    {
       //---------------------------------- Starbase data --------------------------------
       "key": "pirate_military_base",
       "name": "Pirate Base",
@@ -7959,12 +7959,28 @@
       "roles": "pirate",
       "hull_port_sets": {}
     },
-	{
+    {
       //---------------------------------- Starbase data --------------------------------
       "key": "hegemony_generator",
       "name": "Generator",
       "side": "kralien",
       "artfileroot": "TSN Mod/Hegemony/HegGen",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [
+        200
+      ],
+      "hullpoints": 150,
+      "roles": "generator",
+      "hull_port_sets": {}
+    },
+	{
+      //---------------------------------- Starbase data --------------------------------
+      "key": "defense_platform",
+      "name": "defense platform",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/USFPDefence3",
       "meshscale": 0.5,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
