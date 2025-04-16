@@ -13,6 +13,9 @@
   "#credits-text": "Designed and programmed by^^Thom Robertson",
 
   // major cleanup and rebuild by Mike Substelny, 6/29/23
+  // TSN Mod Pack - Ascension
+  // TSN Mod Pack - Models designed by Tetra, Fish, and also taken from the original TSN Artermis 2.x mod
+  // TSN Mod Pack - Ship Data by Fish & Xavier
 
   //------------------------------------------------------------------
   "#ship-list": [
@@ -264,7 +267,7 @@
       "exclusionradius": 120.0,
       "health": 100,
       "heal_rate": 0.1,
-      "roles": "charbdis,monster",
+      "roles": "charbdis,monster"
     },
     {
       //---------------------------------- asteroid data --------------------------------
@@ -400,7 +403,7 @@
         },
         {
           "Mine": 6
-        },
+        }
       ],
       //      "torpedostart": {"Homing": 8, "Nuke": 2, "EMP": 4, "Mine": 6 },
 
@@ -7893,71 +7896,249 @@
       "key": "jump_node",
       "name": "Jump Node",
       "side": "USFP",
-      "artfileroot": "TSN Mod/USFP/gate_big",
+      "artfileroot": "TSN Mod/USFP/JumpNode",
       "meshscale": 14.0,
       "radarscale": 1.0,
-      "internalmapscale": 1.0,
-      "internalmapw": 30,
-      "internalmaph": 30,
-      "internalsymmetry": 1,
       "exclusionradius": 120.0,
-      "shields": [
-        200
-      ],
+      "shields": [ 200 ],
       "hullpoints": 150,
       "roles": "node",
       "hull_port_sets": {}
     },
     {
-      //---------------------------------- Starbase data --------------------------------
-      "key": "usfp_industrial_1",
+      //---------------------------------- USFP data --------------------------------
+      "key": "defense_platform_beam",
+      "name": "LR Beam Platform",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/DefensePlatBeam",
+      "meshscale": 1,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [
+        500
+      ],
+      "hullpoints": 250,
+      "roles": "defense",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ 0.000, -5.000, 0.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ 0.000, 5.000, 0.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 0
+          },
+          {
+            "position": [ 0.000, -5.000, 0.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ 0.000, 5.000, 0.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 0
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- USFP data --------------------------------
+      "key": "defense_platform_torp",
+      "name": "Torpedo Platform",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/DefensePlatTorp",
+      "meshscale": 0.7,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [ 500 ],
+      "hullpoints": 250,
+      "roles": "defense",
+      "drone_launch_timer": 20,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+            {
+              "position": [ 0.000, -6.000, 0.000 ],
+              "color": "green",
+              "arccolor": "#500",
+              "cycle_time": 6,
+              "damage_coeff": 1,
+              "range": 600,
+              "arcwidth": 135,
+              "barrel_angle": 0
+            },
+            {
+              "position": [ 0.000, 6.000, 0.000 ],
+              "color": "green",
+              "arccolor": "#500",
+              "cycle_time": 6,
+              "damage_coeff": 1,
+              "range": 600,
+              "arcwidth": 135,
+              "barrel_angle": 180
+            }
+        ]
+        }
+    },
+    {
+      //---------------------------------- USFP data --------------------------------
+      "key": "defense_platform_fighter",
+      "name": "Fighter Platform",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/DefensePlatFighter",
+      "meshscale": 0.05,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [ 500 ],
+      "hullpoints": 250,
+      "roles": "defense",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ 415.000, -175.000, -160.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 150,
+            "barrel_angle": 90
+          },
+          {
+            "position": [ -415.000, -175.000, -160.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 150,
+            "barrel_angle": -90
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- USFP data --------------------------------
+      "key": "usfp_industrial_unit",
       "name": "Industrial Unit",
       "side": "USFP",
-      "artfileroot": "TSN Mod/USFP/USFPIndustrial1",
+      "artfileroot": "TSN Mod/USFP/IndustrialUnit",
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [
-        200
-      ],
+      "shields": [ 200 ],
       "hullpoints": 150,
       "roles": "industrial",
       "hull_port_sets": {}
     },
     {
-      //---------------------------------- Starbase data --------------------------------
-      "key": "usfp_storage_1",
+      //---------------------------------- USFP data --------------------------------
+      "key": "usfp_industrial_storage",
       "name": "Storage Module",
       "side": "USFP",
-      "artfileroot": "TSN Mod/USFP/USFPStorage1",
+      "artfileroot": "TSN Mod/USFP/IndustrialStorage",
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [
-        200
-      ],
+      "shields": [ 200 ],
       "hullpoints": 150,
       "roles": "industrial",
       "hull_port_sets": {}
     },
     {
-      //---------------------------------- Starbase data --------------------------------
+      //---------------------------------- USFP data --------------------------------
+      "key": "usfp_industrial_refinary",
+      "name": "Refinary Unit",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/IndustrialRefinary",
+      "meshscale": 2.0,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [ 200 ],
+      "hullpoints": 150,
+      "roles": "industrial",
+      "hull_port_sets": {}
+    },
+    {
+      //---------------------------------- USFP data --------------------------------
+      "key": "usfp_industrial_processor",
+      "name": "Processor Unit",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/IndustrialProcessor",
+      "meshscale": 2.0,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [ 200 ],
+      "hullpoints": 150,
+      "roles": "industrial",
+      "hull_port_sets": {}
+    },
+    {
+      //---------------------------------- USFP data --------------------------------
+      "key": "usfp_industrial_assembly",
+      "name": "Assembly Yard",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/IndustrialAssembler",
+      "meshscale": 2.0,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [ 200 ],
+      "hullpoints": 150,
+      "roles": "industrial",
+      "hull_port_sets": {}
+    },
+    {
+      //---------------------------------- Pirate data --------------------------------
       "key": "pirate_military_base",
       "name": "Pirate Base",
       "side": "pirate",
-      "artfileroot": "TSN Mod/Pirate/PirateBaseMil",
+      "artfileroot": "TSN Mod/Pirate/PirateBaseAst",
       "meshscale": 0.3,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [
-        200
-      ],
+      "shields": [ 200 ],
       "hullpoints": 150,
       "roles": "pirate",
       "hull_port_sets": {}
     },
     {
-      //---------------------------------- Starbase data --------------------------------
+      //---------------------------------- Pirate data --------------------------------
+      "key": "pirate_cache_1",
+      "name": "Cache",
+      "side": "pirate",
+      "artfileroot": "TSN Mod/Pirate/PirateCache",
+      "meshscale": 0.3,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "shields": [ 200 ],
+      "hullpoints": 150,
+      "roles": "pirate",
+      "hull_port_sets": {}
+    },
+    {
+      //---------------------------------- Hegemony data --------------------------------
       "key": "hegemony_generator",
       "name": "Generator",
       "side": "kralien",
@@ -7965,33 +8146,823 @@
       "meshscale": 0.5,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [
-        200
-      ],
+      "shields": [ 200 ],
       "hullpoints": 150,
       "roles": "generator",
-      "hull_port_sets": {}
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ 0.000, 20.000, -8.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 175,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ 0.000, 20.000, 8.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 175,
+            "barrel_angle": 0
+          }
+        ]
+      }
     },
-	{
-      //---------------------------------- Starbase data --------------------------------
-      "key": "defense_platform",
-      "name": "defense platform",
-      "side": "USFP",
-      "artfileroot": "TSN Mod/USFP/USFPDefence3",
-      "meshscale": 0.5,
+
+
+    //---------------------------------- TSN Mod Ships --------------------------------
+    {
+      //---------------------------------- Hegemony Ship data --------------------------------
+      "key": "arvonian_command",
+      "name": "Command",
+      "side": "Arvonian",
+      "artfileroot": "TSN Mod/Hegemony/AVCommand",
+      "meshscale": 0.4,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [
-        200
+      "meshrotate": 0,
+      "shields": [ 1000, 1000 ],
+      "hullpoints": 6,
+      "long_desc": "Arvonian Command and Control vessel^",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
       ],
-      "hullpoints": 150,
-      "roles": "generator",
-      "hull_port_sets": {}
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 12,
+      "internalsymmetry": 1,
+      "turn_rate": 0.5,
+      "speed_coeff": 1.2,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ -92, 7, -125 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 100,
+            "barrel_angle": 130
+          },
+          {
+            "position": [ 92, 7, -125 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 100,
+            "barrel_angle": -130
+          },
+          {
+            "position": [ 92, 7, -96 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": -90
+          },
+
+          {
+            "position": [ -92, 7, -96 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": 90
+          },
+          {
+            "position": [ -25.000, 20.000, 11.500 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 90,
+            "barrel_angle": -20
+          },
+          {
+            "position": [ 25.000, 20.000, 11.500 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 90,
+            "barrel_angle": 20
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ -64.000, -18.000, -156.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 64.000, -18.000, -156.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ -143.000, -31.000, 159.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 143.000, -31.000, 159.000 ],
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- Hegemony Ship data --------------------------------
+      "key": "torgoth_command",
+      "name": "Command",
+      "side": "Torgoth",
+      "artfileroot": "TSN Mod/Hegemony/TorgothCmd",
+      "meshscale": 0.4,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 1000, 1000 ],
+      "hullpoints": 6,
+      "long_desc": "Torgoth Command and Control vessel^",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 12,
+      "internalsymmetry": 1,
+      "turn_rate": 0.5,
+      "speed_coeff": 1.2,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "drone_launch_timer": 15,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ 0.000, 92.000, 262.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1500,
+            "arcwidth": 100,
+            "barrel_angle": 0
+          },
+          {
+            "position":[ 0.000, 112.000, 188.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 150,
+            "barrel_angle": 0
+          },
+          {
+            "position": [ 0.000, 118.000, 118.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 250,
+            "barrel_angle": 0
+          },
+          {
+            "position": [ 0.000, -102.000, 179.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": -80
+          },
+          {
+            "position": [ 0.000, -110.000, 127.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": 80
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ 0.000, 75.000, -285.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 0.000, -75.000, -285.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 75.000, 0.000, -285.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ -75.000, 0.000, -285.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 50.000, 50.000, -285.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ -50.000, 50.000, -285.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ -50.000, -50.000, -285.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 50.000, -50.000, -285.000 ],
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- Hegemony Ship data --------------------------------
+      "key": "kralien_drone_cruiser",
+      "name": "Drone Cruiser",
+      "side": "Kralien",
+      "artfileroot": "kralien_cruiser",
+      "meshscale": 0.0887114182114601,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 80, 80 ],
+      "hullpoints": 2,
+      "long_desc": "Kralien Drone Cruiser",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "drone_launch_timer": 20,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ -78.000, -5.000, 287.000 ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 800,
+            "arcwidth": 150,
+            "barrel_angle": -18
+          },
+          {
+            "position": [ 78.000, -5.000, 287.000 ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 800,
+            "arcwidth": 150,
+            "barrel_angle": 18
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ -70.600, 29.200, -243.700 ],
+            "color": "purple"
+          },
+          {
+            "position": [ 70.600, 29.200, -243.700 ],
+            "color": "purple"
+          }
+        ]
+      }
+    },
+
+    {
+      //---------------------------------- Pirate Ship data --------------------------------
+      "key": "pirate_arrow",
+      "name": "Arrow",
+      "side": "Pirate",
+      "artfileroot": "TSN Mod/Pirate/Arrow",
+      "meshscale": 1.0,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 80, 80 ],
+      "hullpoints": 2,
+      "long_desc": "Arrow Class Scout Cruiser",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ -8.000, 0.000, 25.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 45,
+            "barrel_angle": -10
+          },
+          {
+            "position": [ 8.000, 0.000, 25.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 45,
+            "barrel_angle": 10
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ -13.000, 3.000, -44.000 ],
+            "color": "red"
+          },
+          {
+            "position": [ -13.000, -3.000, -44.000 ],
+            "color": "red"
+          },
+          {
+            "position": [ 13.000, 3.000, -44.000 ],
+            "color": "red"
+          },
+          {
+            "position": [ 13.000, -3.000, -44.000 ],
+            "color": "red"
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- Pirate Ship data --------------------------------
+      "key": "pirate_axe",
+      "name": "Axe",
+      "side": "Pirate",
+      "artfileroot": "TSN Mod/Pirate/Axe",
+      "meshscale": 0.2,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 80, 80 ],
+      "hullpoints": 2,
+      "long_desc": "Axe Class Cruiser",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ 0.000, 2.000, 275.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 100,
+            "barrel_angle": 0
+          },
+          {
+            "position": [ 138.000, 2.000, 201.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 110,
+            "barrel_angle": 40
+          },
+          {
+            "position": [ -138.000, 2.000, 201.000 ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 110,
+            "barrel_angle": -40
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ -90.161, 50.917, -275.799 ],
+            "color": "red"
+          },
+          {
+            "position": [ -82.155, -46.572, -275.845 ],
+            "color": "red"
+          },
+          {
+            "position": [ 92.364, 50.945, -275.799 ],
+            "color": "red"
+          },
+          {
+            "position": [ 84.538, -47.973, -275.844 ],
+            "color": "red"
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- USFP Ship data --------------------------------
+      "key": "usfp_patrol_boat",
+      "name": "Patrol Boat",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/PatrolBoat",
+      "meshscale": 0.0887114182114601,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 80, 80 ],
+      "hullpoints": 2,
+      "long_desc": "Sword Class Patrol Boat",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "drone_launch_timer": 20,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ -118.000, 10.000, 102.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": -35
+          },
+          {
+            "position": [ 0.000, 20.000, 288.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 120,
+            "barrel_angle": 0
+          },
+          {
+            "position": [ 118.000, 10.000, 102.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": 35
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ 81.000, -10.000, -214.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ -81.000, -10.000, -214.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 0.000, 30.000, -280.000 ],
+            "color": "white"
+          }
+
+        ]
+      }
+    },
+    {
+      //---------------------------------- USFP Ship data --------------------------------
+      "key": "hjorden_cruiser",
+      "name": "Hjorden Cruiser",
+      "side": "Hjorden",
+      "artfileroot": "TSN Mod/Hjorden/HjordenCruiser",
+      "meshscale": 0.2,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 80, 80 ],
+      "hullpoints": 2,
+      "long_desc": "Hjorden Cruiser",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ 68.000, 80.000, 208.000 ],
+            "color": "orange",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": 60
+          },
+          {
+            "position": [ -68.000, 80.000, 208.000 ],
+            "color": "orange",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": -60
+          },
+          {
+            "position": [ 2.000, -30.000, 253.000 ],
+            "color": "orange",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 80,
+            "barrel_angle": 0
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ -100.000, 20.000, -262.000 ],
+            "color": "blue"
+          },
+          {
+            "position": [ 100.000, 20.000, -262.000 ],
+            "color": "blue"
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- TSN Ship data --------------------------------
+      "key": "tsn_lion_class_supply",
+      "name": "Lion Class Supply Ship",
+      "side": "TSN",
+      "artfileroot": "TSN Mod/TSN/LionClass",
+      "meshscale": 0.3,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 80, 80 ],
+      "hullpoints": 2,
+      "long_desc": "Lion Class Supply Ship",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ -70.000, -5.000, 130.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 170,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ 70.000, -5.000, 130.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 170,
+            "barrel_angle": 0
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ 0.000, 23.000, -246.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 0.000, -35.000, -234.000 ],
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      //---------------------------------- TSN Ship data --------------------------------
+      "key": "tsn_nemesis_class_interceptor",
+      "name": "Nemesis Class Interceptor",
+      "side": "TSN",
+      "artfileroot": "TSN Mod/TSN/NemesisClass",
+      "meshscale": 0.15,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 80, 80 ],
+      "hullpoints": 2,
+      "long_desc": "Nemesis Class Interceptor",
+      "tubecount": 0,
+      "torpedostart": [
+        { "Homing": 0 },
+        { "Nuke": 0 },
+        { "EMP": 0 },
+        { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ -100.000, 10.000, 95.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 120,
+            "barrel_angle": -20
+          },
+          {
+            "position": [ 100.000, 10.000, 95.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 120,
+            "barrel_angle": 20
+          },
+          {
+            "position": [ -40.000, 24.000, 234.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 70,
+            "barrel_angle": -10
+          },
+          {
+            "position": [ 40.000, 24.000, 234.000 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 70,
+            "barrel_angle": 10
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [ -62.000, 70.000, -196.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 62.000, 70.000, -196.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ -94.000, -38.000, -140.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 94.000, -38.000, -140.000 ],
+            "color": "white"
+          },
+          {
+            "position": [ 0.000, 30.000, -229.000 ],
+            "color": "white"
+          }
+        ]
+      }
     }
+    
   ]
 }
 // keep this end-of-file line, for parsing safety
-
-
-
 
