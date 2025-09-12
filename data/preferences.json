@@ -59,6 +59,7 @@
   "gui-color-asteroid": "#6f6546",
   "gui-color-monster": "#f0f",
   "gui-color-nebula": "#22f",
+  "gui-color-planet": "#fff",
   "gui-color-pickup": "#fff",
   "gui-color-unscanned": "#999",
 
@@ -68,6 +69,7 @@
   "gui-color-dragbar-knob": "#eef",
   "gui-color-dragbar-knob-text": "#88f",
 
+  "gui-radar-side-colors-from-selected-ship": "no", //"yes",
 
   "comms-control-button-height": 40,
 
@@ -75,11 +77,14 @@
 
   "gui-color-weapon-reticle": "#f30",
   "gui-color-science-reticle": "#0f0",
+  "gui-color-comms-reticle": "#03f",
 
   "shield_splash_brightness_coeff": 0.3,
 
   //  "default_mission_folder": "basicsiegemast",
 
+  "lock-reticle-size-2D": 60,
+  "lock-reticle-size-3D": 60,
 
   "player-fuel-use-coeff": 0.12, // this is multiplied by the ship's speed
   "player-base-energy-use-coeff": 0.007, // This is multipled by the power use by all the engineering sliders
@@ -87,8 +92,11 @@
   "player-shields-raised-energy-coeff": 2.0,
   "energyCostOfOneBeamShot": 1.0,
 
-  "energy_to_torp_cost": 150.0,
-  "torp_to_energy_cost": 100.0,
+  "ship_apu_assistance_per_tick": 0.001,
+  "ship_apu_assistance_ceiling": 200,
+
+  //"energy_to_torp_cost": 150.0,   deprecated
+  //"torp_to_energy_cost": 100.0,   deprecated
 
   "torpedo_homing_damage": 35,
   "torpedo_nuke_damage": 8,
