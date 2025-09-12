@@ -206,41 +206,81 @@
   "fonts": [
     {
       "tag": "smallest",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "Arial Bold",
       "size": 16
     },
     {
       "tag": "gui-1",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "Arial Bold",
       "size": 20
     },
     {
       "tag": "gui-2",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "Arial Bold",
       "size": 22
     },
     {
       "tag": "gui-2A",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "Arial Bold",
       "size": 25
     },
     {
       "tag": "gui-3",
-      "filename": "Goldman-Bold",
+      "filename": "Arial Bold",
       "size": 24
     },
     {
       "tag": "gui-4",
-      "filename": "Goldman-Bold",
+      "filename": "Arial Bold",
       "size": 28
     },
     {
       "tag": "gui-5",
-      "filename": "Goldman-Bold",
+      "filename": "Arial Bold",
       "size": 32
     },
     {
       "tag": "gui-6",
+      "filename": "Arial Bold",
+      "size": 48
+    },
+	{
+      "tag": "TSN-16",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 16
+    },
+    {
+      "tag": "TSN-20",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 20
+    },
+    {
+      "tag": "TSN-22",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 22
+    },
+    {
+      "tag": "TSN-25",
+      "filename": "GoldmanSansCd_Rg",
+      "size": 25
+    },
+    {
+      "tag": "TSN-24",
+      "filename": "Goldman-Bold",
+      "size": 24
+    },
+    {
+      "tag": "TSN-28",
+      "filename": "Goldman-Bold",
+      "size": 28
+    },
+    {
+      "tag": "TSN-32",
+      "filename": "Goldman-Bold",
+      "size": 32
+    },
+    {
+      "tag": "TSN-48",
       "filename": "Goldman-Bold",
       "size": 48
     }
