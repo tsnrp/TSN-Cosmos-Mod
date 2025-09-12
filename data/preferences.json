@@ -207,42 +207,42 @@
     {
       "tag": "smallest",
       "filename": "Arial Bold",
-      "size": 16
+      "size": 12
     },
     {
       "tag": "gui-1",
       "filename": "Arial Bold",
-      "size": 20
+      "size": 16
     },
     {
       "tag": "gui-2",
       "filename": "Arial Bold",
-      "size": 22
+      "size": 18
     },
     {
       "tag": "gui-2A",
       "filename": "Arial Bold",
-      "size": 25
+      "size": 21
     },
     {
       "tag": "gui-3",
       "filename": "Arial Bold",
-      "size": 24
+      "size": 20
     },
     {
       "tag": "gui-4",
       "filename": "Arial Bold",
-      "size": 28
+      "size": 24
     },
     {
       "tag": "gui-5",
       "filename": "Arial Bold",
-      "size": 32
+      "size": 28
     },
     {
       "tag": "gui-6",
       "filename": "Arial Bold",
-      "size": 48
+      "size": 44
     },
 	{
       "tag": "TSN-16",
