@@ -83,8 +83,8 @@
 
   //  "default_mission_folder": "basicsiegemast",
 
-  "lock-reticle-size-2D": 60,
-  "lock-reticle-size-3D": 60,
+  "lock-reticle-size-2D": 45,
+  "lock-reticle-size-3D": 45,
 
   "player-fuel-use-coeff": 0.12, // this is multiplied by the ship's speed
   "player-base-energy-use-coeff": 0.007, // This is multipled by the power use by all the engineering sliders
