@@ -7896,116 +7896,6 @@
     },
     #---------------------------------- TSN Mod data --------------------------------
     {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_1",
-      "name": "debris_1",
-      "side": "generic",
-      "artfileroot": "Debris1",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_2",
-      "name": "debris_2",
-      "side": "generic",
-      "artfileroot": "Debris2",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_3",
-      "name": "debris_3",
-      "side": "generic",
-      "artfileroot": "Debris3",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_4",
-      "name": "debris_4",
-      "side": "generic",
-      "artfileroot": "Debris4",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_5",
-      "name": "debris_5",
-      "side": "generic",
-      "artfileroot": "Debris5",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_6",
-      "name": "debris_6",
-      "side": "generic",
-      "artfileroot": "Debris6",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_7",
-      "name": "debris_7",
-      "side": "generic",
-      "artfileroot": "Debris7",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_8",
-      "name": "debris_8",
-      "side": "generic",
-      "artfileroot": "Debris8",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_9",
-      "name": "debris_9",
-      "side": "generic",
-      "artfileroot": "Debris9",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
-    #---------------------------------- debris object data --------------------------------
-      "key": "debris_10",
-      "name": "debris_10",
-      "side": "generic",
-      "artfileroot": "Debris10",
-      "meshscale": 5.0,
-      "radarscale": 1.0,
-      "exclusionradius": 0.0,
-      "interactionradius": 603.0
-    },
-    {
     #---------------------------------- Jump Node data --------------------------------
       "key": "jump_node",
       "name": "Jump Node",
@@ -8943,6 +8833,86 @@
       }
     },
     {
+    #---------------------------------- Hegemony Ship data --------------------------------
+      "key": "Hegemony_Transport",
+      "name": "Transport",
+      "side": "Hegemony",
+      "artfileroot": "TSN Mod/Hegemony/HegTransport",
+      "meshscale": 0.15,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [ 100, 100 ],
+      "hullpoints": 10,
+      "long_desc": "Hegemony Armored Transport",
+      "tubecount": 0,
+      "torpedostart": [
+          { "Homing": 0 },
+          { "Nuke": 0 },
+          { "EMP": 0 },
+          { "Mine": 0 }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 0.7,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+          "beam Primary Beams": [
+              {
+                  "position": [ -50.583, 211.429, 252.503 ],
+                  "color": "red",
+                  "arccolor": "#500",
+                  "cycle_time": 6,
+                  "damage_coeff": 1,
+                  "range": 1000,
+                  "arcwidth": 95,
+                  "barrel_angle": 30
+              },
+              {
+                  "position": [ 49.459, 212.380, 252.503 ],
+                  "color": "red",
+                  "arccolor": "#500",
+                  "cycle_time": 6,
+                  "damage_coeff": 1,
+                  "range": 1000,
+                  "arcwidth": 95,
+                  "barrel_angle": 330
+              },
+              {
+                  "position": [ 0.908, 116.405, -433.742 ],
+                  "color": "red",
+                  "arccolor": "#500",
+                  "cycle_time": 6,
+                  "damage_coeff": 1,
+                  "range": 1000,
+                  "arcwidth": 120,
+                  "barrel_angle": 180
+              }
+          ],
+          "exhaust": [
+              {
+                  "position": [ -1.492, 320.870, -447.818 ],
+                  "color": "red"
+              },
+              {
+                  "position": [ -1.480, 189.425, -447.818 ],
+                  "color": "red"
+              },
+              {
+                  "position": [ -1.538, -139.013, -348.930 ],
+                  "color": "red"
+              },
+          ]
+      },
+    },
+    {
     #---------------------------------- Pirate Ship data --------------------------------
       "key": "pirate_arrow",
       "name": "Arrow",
@@ -9430,7 +9400,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris1",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
 
     {
@@ -9440,7 +9411,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris2",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris3",
@@ -9449,7 +9421,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris3",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris4",
@@ -9458,7 +9431,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris4",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris5",
@@ -9467,7 +9441,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris5",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris6",
@@ -9476,7 +9451,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris6",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris7",
@@ -9485,7 +9461,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris7",
       "meshscale": 5,
       "radarscale": 0.5,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris8",
@@ -9494,7 +9471,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris8",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris9",
@@ -9503,7 +9481,8 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris9",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
     },
     {
       "key": "Debris10",
@@ -9512,7 +9491,27 @@
       "artfileroot": "TSN Mod/SpaceJunk/Debris10",
       "meshscale": 10,
       "radarscale": 0.25,
-      "exclusionradius": 0
+      "exclusionradius": 0,
+      "interactionradius": 100.0
+    },
+    #---------------------------------- TSN Mod Planets --------------------------------
+    {
+          "key": "EarthLike",
+          "name": "EarthLike",
+          "side": "unknown",
+          "artfileroot": "TSN Mod/Planets/Earthlike",
+          "meshscale": 20,
+          "radarscale": 10,
+          "exclusionradius": 1000
+    },
+    {
+          "key": "RingPlanet",
+          "name": "RingPlanet",
+          "side": "unknown",
+          "artfileroot": "TSN Mod/Planets/Ring",
+          "meshscale": 20,
+          "radarscale": 10,
+          "exclusionradius": 1000
     },
   ]
 }
