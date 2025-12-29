@@ -120,7 +120,7 @@
 
   "station-dock-drag-speed": 3.0,
 
-  "obscure_ip_typein_box_flag": 0,
+  "obscure_ip_typein_box_flag": 1,
 
   "server-network-mess-per-frame": 5500,
   "client-network-mess-per-frame": 5510,
