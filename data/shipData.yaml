@@ -317,7 +317,7 @@
       "exclusionradius": 120.0,
       "health": 100,
       "heal_rate": 0.1,
-      "roles": "charbdis,monster",
+      "roles": "charbdis,monster"
     },
     {
       #---------------------------------- asteroid data --------------------------------
@@ -465,7 +465,7 @@
         },
         {
           "Mine": 6
-        },
+        }
       ],
       #      "torpedostart": {"Homing": 8, "Nuke": 2, "EMP": 4, "Mine": 6 },
 
@@ -3169,7 +3169,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [-3.052, 0.330, 10.450 ],
+            "position": [
+              -3.052,
+              0.33,
+              10.45
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 5,
@@ -3179,7 +3183,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 3.052, 0.330, 10.450 ],
+            "position": [
+              3.052,
+              0.33,
+              10.45
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 5,
@@ -3191,11 +3199,19 @@
         ],
         "exhaust": [
           {
-            "position": [-4.823, 0.580, -5.484 ],
+            "position": [
+              -4.823,
+              0.58,
+              -5.484
+            ],
             "color": "orange"
           },
           {
-            "position": [ 4.823, 0.580, -5.484 ],
+            "position": [
+              4.823,
+              0.58,
+              -5.484
+            ],
             "color": "orange"
           }
         ]
@@ -3247,7 +3263,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.941, 0.879, 4.521 ],
+            "position": [
+              0.941,
+              0.879,
+              4.521
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3257,7 +3277,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ -0.941, 0.879, 4.521 ],
+            "position": [
+              -0.941,
+              0.879,
+              4.521
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3267,7 +3291,11 @@
             "barrel_angle": 15
           },
           {
-            "position": [ 4.506, -1.000, -1.360 ],
+            "position": [
+              4.506,
+              -1.0,
+              -1.36
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3277,7 +3305,11 @@
             "barrel_angle": 85
           },
           {
-            "position": [ -4.506, -1.000, -1.360 ],
+            "position": [
+              -4.506,
+              -1.0,
+              -1.36
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3289,19 +3321,35 @@
         ],
         "exhaust": [
           {
-            "position": [-0.865, 0.203, -3.458 ],
+            "position": [
+              -0.865,
+              0.203,
+              -3.458
+            ],
             "color": "orange"
           },
           {
-            "position": [ 0.865, 0.203, -3.458 ],
+            "position": [
+              0.865,
+              0.203,
+              -3.458
+            ],
             "color": "orange"
           },
           {
-            "position": [-3.647, -0.915, -3.513 ],
+            "position": [
+              -3.647,
+              -0.915,
+              -3.513
+            ],
             "color": "orange"
           },
           {
-            "position": [ 3.647, -0.915, -3.513 ],
+            "position": [
+              3.647,
+              -0.915,
+              -3.513
+            ],
             "color": "orange"
           }
         ]
@@ -3354,7 +3402,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 1.054, 1.176, 8.604 ],
+            "position": [
+              1.054,
+              1.176,
+              8.604
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3364,7 +3416,11 @@
             "barrel_angle": 25
           },
           {
-            "position": [-1.054, 1.176, 8.604 ],
+            "position": [
+              -1.054,
+              1.176,
+              8.604
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3374,7 +3430,11 @@
             "barrel_angle": 335
           },
           {
-            "position": [ 6.138, -0.904, -3.941 ],
+            "position": [
+              6.138,
+              -0.904,
+              -3.941
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3384,7 +3444,11 @@
             "barrel_angle": 85
           },
           {
-            "position": [-6.138, -0.904, -3.941 ],
+            "position": [
+              -6.138,
+              -0.904,
+              -3.941
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3396,15 +3460,27 @@
         ],
         "exhaust": [
           {
-            "position": [ 4.956, -0.671, -8.632 ],
+            "position": [
+              4.956,
+              -0.671,
+              -8.632
+            ],
             "color": "orange"
           },
           {
-            "position": [-4.956, -0.671, -8.632 ],
+            "position": [
+              -4.956,
+              -0.671,
+              -8.632
+            ],
             "color": "orange"
           },
           {
-            "position": [0, 0.213, -4.265 ],
+            "position": [
+              0,
+              0.213,
+              -4.265
+            ],
             "color": "orange"
           }
         ]
@@ -3457,7 +3533,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [-0.895, 1.174, 6.983 ],
+            "position": [
+              -0.895,
+              1.174,
+              6.983
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3467,7 +3547,11 @@
             "barrel_angle": 340
           },
           {
-            "position": [ 0.895, 1.174, 6.983 ],
+            "position": [
+              0.895,
+              1.174,
+              6.983
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3477,7 +3561,11 @@
             "barrel_angle": 20
           },
           {
-            "position": [-6.201, -1.271, 7.025 ],
+            "position": [
+              -6.201,
+              -1.271,
+              7.025
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3487,7 +3575,11 @@
             "barrel_angle": 290
           },
           {
-            "position": [ 6.201, -1.271, 7.025 ],
+            "position": [
+              6.201,
+              -1.271,
+              7.025
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3497,7 +3589,11 @@
             "barrel_angle": 70
           },
           {
-            "position": [-6.958, -1.337, -4.584 ],
+            "position": [
+              -6.958,
+              -1.337,
+              -4.584
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3507,7 +3603,11 @@
             "barrel_angle": 270
           },
           {
-            "position": [ 6.958, -1.337, -4.584 ],
+            "position": [
+              6.958,
+              -1.337,
+              -4.584
+            ],
             "color": "red",
             "arccolor": "#500",
             "cycle_time": 6,
@@ -3519,15 +3619,27 @@
         ],
         "exhaust": [
           {
-            "position": [ 0, -0.031, -5.727 ],
+            "position": [
+              0,
+              -0.031,
+              -5.727
+            ],
             "color": "orange"
           },
           {
-            "position": [-3.997, -0.802, -9.591 ],
+            "position": [
+              -3.997,
+              -0.802,
+              -9.591
+            ],
             "color": "orange"
           },
           {
-            "position": [ 3.997, -0.802, -9.591 ],
+            "position": [
+              3.997,
+              -0.802,
+              -9.591
+            ],
             "color": "orange"
           }
         ]
@@ -7904,10 +8016,50 @@
       "meshscale": 14.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "node",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
+    },
+    {
+    #---------------------------------- Starbase data --------------------------------
+      "key": "starbase_deep_space",
+      "name": "Deep Space Station",
+      "origin": "Terran",
+      "side": "USFP",
+      "artfileroot": "TSN Mod/USFP/DSStation",
+      "meshscale": 0.399715006351471,
+      "radarscale": 1.0,
+      "internalmapscale": 1.0,
+      "internalmapw": 30,
+      "internalmaph": 30,
+      "internalsymmetry": 1,
+      "exclusionradius": 120.0,
+      "shields": [
+        600
+      ],
+      "hullpoints": 200,
+      "roles": "station",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.0,
+              4.27699995040894,
+              0.0329999998211861
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1100,
+            "arcwidth": 360,
+            "barrel_angle": 0
+          }
+        ]
+      }
     },
     {
     #---------------------------------- USFP data --------------------------------
@@ -7919,53 +8071,69 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "shields": [
-              500
+        500
       ],
       "hullpoints": 250,
       "roles": "platform,static,defense",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ 0.000, -5.000, 0.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 2500,
-                  "arcwidth": 180,
-                  "barrel_angle": 180
-              },
-              {
-                  "position": [ 0.000, 5.000, 0.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 2500,
-                  "arcwidth": 180,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [ 0.000, -5.000, 0.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 2500,
-                  "arcwidth": 180,
-                  "barrel_angle": 180
-              },
-              {
-                  "position": [ 0.000, 5.000, 0.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 2500,
-                  "arcwidth": 180,
-                  "barrel_angle": 0
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.0,
+              -5.0,
+              0.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 180
+          },
+          {
+            "position": [
+              0.0,
+              5.0,
+              0.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              0.0,
+              -5.0,
+              0.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 180
+          },
+          {
+            "position": [
+              0.0,
+              5.0,
+              0.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2500,
+            "arcwidth": 180,
+            "barrel_angle": 0
+          }
+        ]
       }
     },
     {
@@ -7977,33 +8145,43 @@
       "meshscale": 0.7,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 500 ],
+      "shields": [
+        500
+      ],
       "hullpoints": 250,
       "roles": "platform,static,defense",
       "drone_launch_timer": 20,
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ 0.000, -6.000, 0.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 600,
-                  "arcwidth": 135,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [ 0.000, 6.000, 0.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 600,
-                  "arcwidth": 135,
-                  "barrel_angle": 180
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.0,
+              -6.0,
+              0.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 135,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              0.0,
+              6.0,
+              0.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 135,
+            "barrel_angle": 180
+          }
+        ]
       }
     },
     {
@@ -8015,14 +8193,24 @@
       "meshscale": 0.05,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 500 ],
+      "shields": [
+        500
+      ],
       "hullpoints": 250,
       "roles": "platform,static,defense",
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -8035,28 +8223,36 @@
       "warp_energy_cost": 1,
       "jump_energy_cost": 1,
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ 415.000, -175.000, -160.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 600,
-                  "arcwidth": 150,
-                  "barrel_angle": 90
-              },
-              {
-                  "position": [ -415.000, -175.000, -160.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 600,
-                  "arcwidth": 150,
-                  "barrel_angle": -90
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              415.0,
+              -175.0,
+              -160.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 150,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -415.0,
+              -175.0,
+              -160.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 150,
+            "barrel_angle": -90
+          }
+        ]
       }
     },
     {
@@ -8068,10 +8264,12 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "platform,static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- USFP data --------------------------------
@@ -8082,10 +8280,12 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- USFP data --------------------------------
@@ -8096,10 +8296,12 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "platform,static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- USFP data --------------------------------
@@ -8110,10 +8312,12 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "platform,static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- USFP data --------------------------------
@@ -8124,10 +8328,12 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "platform,static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- USFP data --------------------------------
@@ -8138,10 +8344,12 @@
       "meshscale": 1.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- Pirate data --------------------------------
@@ -8152,10 +8360,12 @@
       "meshscale": 0.3,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,pirate",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- Pirate data --------------------------------
@@ -8166,10 +8376,12 @@
       "meshscale": 0.3,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,industrial,pirate",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- Hegemony data --------------------------------
@@ -8180,32 +8392,42 @@
       "meshscale": 0.5,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,industrial,generator",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ 0.000, 20.000, -8.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 600,
-                  "arcwidth": 175,
-                  "barrel_angle": 180
-              },
-              {
-                  "position": [ 0.000, 20.000, 8.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 600,
-                  "arcwidth": 175,
-                  "barrel_angle": 0
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.0,
+              20.0,
+              -8.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 175,
+            "barrel_angle": 180
+          },
+          {
+            "position": [
+              0.0,
+              20.0,
+              8.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 600,
+            "arcwidth": 175,
+            "barrel_angle": 0
+          }
+        ]
       }
     },
     {
@@ -8217,10 +8439,12 @@
       "meshscale": 1.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,defense",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- Hegemony data --------------------------------
@@ -8231,10 +8455,12 @@
       "meshscale": 1.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- Hegemony data --------------------------------
@@ -8245,10 +8471,12 @@
       "meshscale": 1.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
-      "shields": [ 200 ],
+      "shields": [
+        200
+      ],
       "hullpoints": 150,
       "roles": "static,industrial",
-      "hull_port_sets": { }
+      "hull_port_sets": {}
     },
     {
     #---------------------------------- Hegemony data --------------------------------
@@ -8260,98 +8488,98 @@
       "radarscale": 1,
       "exclusionradius": 120,
       "shields": [
-              800,
-              800
+        800,
+        800
       ],
       "hullpoints": 120,
       "roles": "platform, static, defence, carrier",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [
-                          -0.036,
-                          75.912,
-                          177.154
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 90,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [
-                          160.671,
-                          78.551,
-                          77.915
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 90,
-                  "barrel_angle": 60
-              },
-              {
-                  "position": [
-                          157.154,
-                          81.891,
-                          -89.409
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 90,
-                  "barrel_angle": 120
-              },
-              {
-                  "position": [
-                          -1.655,
-                          79.809,
-                          -183.521
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 90,
-                  "barrel_angle": 180
-              },
-              {
-                  "position": [
-                          -158.799,
-                          80.171,
-                          -89.342
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 90,
-                  "barrel_angle": 240
-              },
-              {
-                  "position": [
-                          -159.764,
-                          74.492,
-                          81.376
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 90,
-                  "barrel_angle": 300
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -0.036,
+              75.912,
+              177.154
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              160.671,
+              78.551,
+              77.915
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              157.154,
+              81.891,
+              -89.409
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 90,
+            "barrel_angle": 120
+          },
+          {
+            "position": [
+              -1.655,
+              79.809,
+              -183.521
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 90,
+            "barrel_angle": 180
+          },
+          {
+            "position": [
+              -158.799,
+              80.171,
+              -89.342
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 90,
+            "barrel_angle": 240
+          },
+          {
+            "position": [
+              -159.764,
+              74.492,
+              81.376
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          }
+        ]
       }
     },
     {
@@ -8363,99 +8591,159 @@
       "radarscale": 1,
       "exclusionradius": 120,
       "shields": [
-              900,
-              900
+        900,
+        900
       ],
       "hullpoints": 120,
       "roles": "platform, static, defence, beam",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [
-                          -36.291,
-                          39.385,
-                          137.826
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1.2,
-                  "range": 2600,
-                  "arcwidth": 90,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [
-                          101.711,
-                          39.385,
-                          99.771
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1.2,
-                  "range": 2600,
-                  "arcwidth": 90,
-                  "barrel_angle": 60
-              },
-              {
-                  "position": [
-                          137.398,
-                          39.385,
-                          -38.952
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1.2,
-                  "range": 2600,
-                  "arcwidth": 90,
-                  "barrel_angle": 120
-              },
-              {
-                  "position": [
-                          37.583,
-                          39.385,
-                          -139.116
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1.2,
-                  "range": 2600,
-                  "arcwidth": 90,
-                  "barrel_angle": 180
-              },
-              {
-                  "position": [
-                          -101.214,
-                          39.385,
-                          -100.566
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1.2,
-                  "range": 2600,
-                  "arcwidth": 90,
-                  "barrel_angle": 240
-              },
-              {
-                  "position": [
-                          -135.794,
-                          39.218,
-                          36.269
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1.2,
-                  "range": 2600,
-                  "arcwidth": 90,
-                  "barrel_angle": 300
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -36.291,
+              39.385,
+              137.826
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.2,
+            "range": 2600,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              101.711,
+              39.385,
+              99.771
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.2,
+            "range": 2600,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              137.398,
+              39.385,
+              -38.952
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.2,
+            "range": 2600,
+            "arcwidth": 90,
+            "barrel_angle": 120
+          },
+          {
+            "position": [
+              37.583,
+              39.385,
+              -139.116
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.2,
+            "range": 2600,
+            "arcwidth": 90,
+            "barrel_angle": 180
+          },
+          {
+            "position": [
+              -101.214,
+              39.385,
+              -100.566
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.2,
+            "range": 2600,
+            "arcwidth": 90,
+            "barrel_angle": 240
+          },
+          {
+            "position": [
+              -135.794,
+              39.218,
+              36.269
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.2,
+            "range": 2600,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          }
+        ]
       }
+    },
+    {
+        #---------------------------------- Hegemony Strategic data --------------------------------
+          "key": "Hegemony_SlingAcu",
+      "name": "Hegemony Accumulator",
+      "origin": "Kralien",
+      "side": "Kralien",
+      "artfileroot": "TSN Mod/Hegemony/SlingShotAccumulator",
+      "meshscale": 0.2,
+      "radarscale": 1.0,
+      "internalmapscale": 1.0,
+      "internalmapw": 30,
+      "internalmaph": 30,
+      "internalsymmetry": 1,
+      "exclusionradius": 200.0,
+      "shields": [
+        500
+      ],
+      "hullpoints": 150,
+      "roles": "platform, static"
+    },
+    {
+        #---------------------------------- Hegemony Strategic data --------------------------------
+          "key": "Hegemony_Slingshot",
+      "name": "Slingshot Platform",
+      "origin": "Kralien",
+      "side": "Kralien",
+      "artfileroot": "TSN Mod/Hegemony/SlingShotPlatform",
+      "meshscale": 0.3,
+      "radarscale": 1.0,
+      "internalmapscale": 1.0,
+      "internalmapw": 30,
+      "internalmaph": 30,
+      "internalsymmetry": 1,
+      "exclusionradius": 120.0,
+      "shields": [
+        5000
+      ],
+      "hullpoints": 500,
+      "roles": "platform, static"
+    },
+    {
+        #---------------------------------- Hegemony Strategic data --------------------------------
+          "key": "Hegemony_SlingAntenna",
+      "name": "Slingshot Antenna",
+      "origin": "Kralien",
+      "side": "Kralien",
+      "artfileroot": "TSN Mod/Hegemony/SlingShotAntenna",
+      "meshscale": 0.3,
+      "radarscale": 1.0,
+      "internalmapscale": 1.0,
+      "internalmapw": 30,
+      "internalmaph": 30,
+      "internalsymmetry": 1,
+      "exclusionradius": 120.0,
+      "shields": [
+        500
+      ],
+      "hullpoints": 100,
+      "roles": "platform, static"
     },
 
     #---------------------------------- TSN Mod Ships --------------------------------
@@ -8469,15 +8757,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 1000, 1000 ],
+      "shields": [
+        1000,
+        1000
+      ],
       "hullpoints": 6,
       "long_desc": "Arvonian Command and Control vessel^",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -8491,87 +8790,126 @@
       "jump_energy_cost": 1,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ -92, 7, -125 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 100,
-                  "barrel_angle": 130
-              },
-              {
-                  "position": [ 92, 7, -125 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 100,
-                  "barrel_angle": -130
-              },
-              {
-                  "position": [ 92, 7, -96 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 144,
-                  "barrel_angle": -90
-              },
-
-              {
-                  "position": [ -92, 7, -96 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 144,
-                  "barrel_angle": 90
-              },
-              {
-                  "position": [ -25.000, 20.000, 11.500 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 90,
-                  "barrel_angle": -20
-              },
-              {
-                  "position": [ 25.000, 20.000, 11.500 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 90,
-                  "barrel_angle": 20
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ -64.000, -18.000, -156.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 64.000, -18.000, -156.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ -143.000, -31.000, 159.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 143.000, -31.000, 159.000 ],
-                  "color": "white"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -92,
+              7,
+              -125
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 100,
+            "barrel_angle": 130
+          },
+          {
+            "position": [
+              92,
+              7,
+              -125
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 100,
+            "barrel_angle": -130
+          },
+          {
+            "position": [
+              92,
+              7,
+              -96
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": -90
+          },
+          {
+            "position": [
+              -92,
+              7,
+              -96
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -25.0,
+              20.0,
+              11.5
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 90,
+            "barrel_angle": -20
+          },
+          {
+            "position": [
+              25.0,
+              20.0,
+              11.5
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 90,
+            "barrel_angle": 20
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -64.0,
+              -18.0,
+              -156.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              64.0,
+              -18.0,
+              -156.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              -143.0,
+              -31.0,
+              159.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              143.0,
+              -31.0,
+              159.0
+            ],
+            "color": "white"
+          }
+        ]
       }
     },
     {
@@ -8591,57 +8929,57 @@
       "internalsymmetry": 1,
       "turn_rate": 3,
       "speed_coeff": 3,
-      "scan_strength_coeff": 1.00,
+      "scan_strength_coeff": 1.0,
       "ship_energy_cost": 1,
       "warp_energy_cost": 1,
       "jump_energy_cost": 1,
       "roles": "cockpit,fighter",
       "shields": [
-              25,
-              25
+        25,
+        25
       ],
       "hullpoints": 1,
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [
-                          -107.224,
-                          -0.812,
-                          282.384
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 5,
-                  "damage_coeff": 0.1,
-                  "range": 800,
-                  "arcwidth": 144,
-                  "barrel_angle": 10
-              },
-              {
-                  "position": [
-                          108.439,
-                          -0.387,
-                          282.33
-                  ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 5,
-                  "damage_coeff": 0.1,
-                  "range": 800,
-                  "arcwidth": 144,
-                  "barrel_angle": 350
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [
-                          -1.775,
-                          -0.111,
-                          -282.11
-                  ],
-                  "color": "orange"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -107.224,
+              -0.812,
+              282.384
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 0.1,
+            "range": 800,
+            "arcwidth": 144,
+            "barrel_angle": 10
+          },
+          {
+            "position": [
+              108.439,
+              -0.387,
+              282.33
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 0.1,
+            "range": 800,
+            "arcwidth": 144,
+            "barrel_angle": 350
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -1.775,
+              -0.111,
+              -282.11
+            ],
+            "color": "orange"
+          }
+        ]
       }
     },
     {
@@ -8654,15 +8992,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 1000, 1000 ],
+      "shields": [
+        1000,
+        1000
+      ],
       "hullpoints": 6,
       "long_desc": "Torgoth Command and Control vessel^",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -8677,92 +9026,144 @@
       "drone_launch_timer": 15,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ 0.000, 92.000, 262.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1500,
-                  "arcwidth": 100,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [ 0.000, 112.000, 188.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 150,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [ 0.000, 118.000, 118.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 250,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [ 0.000, -102.000, 179.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 160,
-                  "barrel_angle": -80
-              },
-              {
-                  "position": [ 0.000, -110.000, 127.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 160,
-                  "barrel_angle": 80
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ 0.000, 75.000, -285.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 0.000, -75.000, -285.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 75.000, 0.000, -285.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ -75.000, 0.000, -285.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 50.000, 50.000, -285.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ -50.000, 50.000, -285.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ -50.000, -50.000, -285.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 50.000, -50.000, -285.000 ],
-                  "color": "white"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.0,
+              92.0,
+              262.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1500,
+            "arcwidth": 100,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              0.0,
+              112.0,
+              188.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 150,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              0.0,
+              118.0,
+              118.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 250,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              0.0,
+              -102.0,
+              179.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": -80
+          },
+          {
+            "position": [
+              0.0,
+              -110.0,
+              127.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": 80
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              0.0,
+              75.0,
+              -285.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              0.0,
+              -75.0,
+              -285.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              75.0,
+              0.0,
+              -285.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              -75.0,
+              0.0,
+              -285.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              50.0,
+              50.0,
+              -285.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              -50.0,
+              50.0,
+              -285.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              -50.0,
+              -50.0,
+              -285.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              50.0,
+              -50.0,
+              -285.0
+            ],
+            "color": "white"
+          }
+        ]
       }
     },
     {
@@ -8775,15 +9176,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 80, 80 ],
+      "shields": [
+        80,
+        80
+      ],
       "hullpoints": 2,
       "long_desc": "Kralien Drone Cruiser",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -8798,38 +9210,54 @@
       "roles": "ship",
       "drone_launch_timer": 20,
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ -78.000, -5.000, 287.000 ],
-                  "color": "purple",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 800,
-                  "arcwidth": 150,
-                  "barrel_angle": -18
-              },
-              {
-                  "position": [ 78.000, -5.000, 287.000 ],
-                  "color": "purple",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 800,
-                  "arcwidth": 150,
-                  "barrel_angle": 18
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ -70.600, 29.200, -243.700 ],
-                  "color": "purple"
-              },
-              {
-                  "position": [ 70.600, 29.200, -243.700 ],
-                  "color": "purple"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -78.0,
+              -5.0,
+              287.0
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 800,
+            "arcwidth": 150,
+            "barrel_angle": -18
+          },
+          {
+            "position": [
+              78.0,
+              -5.0,
+              287.0
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 800,
+            "arcwidth": 150,
+            "barrel_angle": 18
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -70.6,
+              29.2,
+              -243.7
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              70.6,
+              29.2,
+              -243.7
+            ],
+            "color": "purple"
+          }
+        ]
       }
     },
     {
@@ -8842,15 +9270,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 100, 100 ],
+      "shields": [
+        100,
+        100
+      ],
       "hullpoints": 10,
       "long_desc": "Hegemony Armored Transport",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -8864,53 +9303,77 @@
       "jump_energy_cost": 1,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ -50.583, 211.429, 252.503 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 95,
-                  "barrel_angle": 30
-              },
-              {
-                  "position": [ 49.459, 212.380, 252.503 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 95,
-                  "barrel_angle": 330
-              },
-              {
-                  "position": [ 0.908, 116.405, -433.742 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 120,
-                  "barrel_angle": 180
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ -1.492, 320.870, -447.818 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ -1.480, 189.425, -447.818 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ -1.538, -139.013, -348.930 ],
-                  "color": "red"
-              },
-          ]
-      },
+        "beam Primary Beams": [
+          {
+            "position": [
+              -50.583,
+              211.429,
+              252.503
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 95,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              49.459,
+              212.38,
+              252.503
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 95,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              0.908,
+              116.405,
+              -433.742
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -1.492,
+              320.87,
+              -447.818
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              -1.48,
+              189.425,
+              -447.818
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              -1.538,
+              -139.013,
+              -348.93
+            ],
+            "color": "red"
+          }
+        ]
+      }
     },
     {
     #---------------------------------- Pirate Ship data --------------------------------
@@ -8922,15 +9385,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 80, 80 ],
+      "shields": [
+        80,
+        80
+      ],
       "hullpoints": 2,
       "long_desc": "Arrow Class Scout Cruiser",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -8944,46 +9418,70 @@
       "jump_energy_cost": 1,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ -8.000, 0.000, 25.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 45,
-                  "barrel_angle": -10
-              },
-              {
-                  "position": [ 8.000, 0.000, 25.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 45,
-                  "barrel_angle": 10
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ -13.000, 3.000, -44.000 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ -13.000, -3.000, -44.000 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ 13.000, 3.000, -44.000 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ 13.000, -3.000, -44.000 ],
-                  "color": "red"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -8.0,
+              0.0,
+              25.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 45,
+            "barrel_angle": -10
+          },
+          {
+            "position": [
+              8.0,
+              0.0,
+              25.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 45,
+            "barrel_angle": 10
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -13.0,
+              3.0,
+              -44.0
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              -13.0,
+              -3.0,
+              -44.0
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              13.0,
+              3.0,
+              -44.0
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              13.0,
+              -3.0,
+              -44.0
+            ],
+            "color": "red"
+          }
+        ]
       }
     },
     {
@@ -8996,15 +9494,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 80, 80 ],
+      "shields": [
+        80,
+        80
+      ],
       "hullpoints": 2,
       "long_desc": "Axe Class Cruiser",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -9018,58 +9527,179 @@
       "jump_energy_cost": 1,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ 0.000, 2.000, 275.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 100,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [ 138.000, 2.000, 201.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 110,
-                  "barrel_angle": 40
-              },
-              {
-                  "position": [ -138.000, 2.000, 201.000 ],
-                  "color": "red",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 110,
-                  "barrel_angle": -40
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ -90.161, 50.917, -275.799 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ -82.155, -46.572, -275.845 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ 92.364, 50.945, -275.799 ],
-                  "color": "red"
-              },
-              {
-                  "position": [ 84.538, -47.973, -275.844 ],
-                  "color": "red"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.0,
+              2.0,
+              275.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 100,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              138.0,
+              2.0,
+              201.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 110,
+            "barrel_angle": 40
+          },
+          {
+            "position": [
+              -138.0,
+              2.0,
+              201.0
+            ],
+            "color": "red",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 110,
+            "barrel_angle": -40
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -90.161,
+              50.917,
+              -275.799
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              -82.155,
+              -46.572,
+              -275.845
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              92.364,
+              50.945,
+              -275.799
+            ],
+            "color": "red"
+          },
+          {
+            "position": [
+              84.538,
+              -47.973,
+              -275.844
+            ],
+            "color": "red"
+          }
+        ]
       }
     },
+      {
+          #---------------------------------- Pirate Ship data --------------------------------
+          "key": "pirate_transport",
+          "name": "Transport",
+          "origin": "Terran",
+          "side": "Pirate",
+          "artfileroot": "transport",
+          "meshscale": 5.82530164718628,
+          "radarscale": 1,
+          "exclusionradius": 55,
+          "meshrotate": 0,
+          "shields": [ 120, 120 ],
+          "hullpoints": 8,
+          "long_desc": "An unarmed colony transport, filled with homesteading cargo and civilian colonists. Displacement: 80 kt.",
+          "tubecount": 0,
+          "torpedostart": [
+              {
+                  "Homing": 0
+              },
+              {
+                  "Nuke": 0
+              },
+              {
+                  "EMP": 0
+              },
+              {
+                  "Mine": 0
+              },
+          ],
+          "internalmapscale": 1,
+          "internalmapw": 20,
+          "internalmaph": 21,
+          "internalsymmetry": 1,
+          "turn_rate": 0.6,
+          "speed_coeff": 1,
+          "scan_strength_coeff": 1,
+          "ship_energy_cost": 1,
+          "warp_energy_cost": 2,
+          "jump_energy_cost": 1,
+          "roles": "ship",
+          "hull_port_sets": {
+              "exhaust": [
+                  {
+                      "position": [
+                              -1.931,
+                              1.702,
+                              -9.889,
+                      ],
+                      "color": "purple"
+                  },
+                  {
+                      "position": [
+                              1.931,
+                              1.702,
+                              -9.889,
+                      ],
+                      "color": "purple"
+                  },
+                  {
+                      "position": [
+                              -4.566,
+                              1.793,
+                              -9.114,
+                      ],
+                      "color": "purple"
+                  },
+                  {
+                      "position": [
+                              4.566,
+                              1.793,
+                              -9.114,
+                      ],
+                      "color": "purple"
+                  },
+                  {
+                      "position": [
+                              -7.138,
+                              1.812,
+                              -8.379,
+                      ],
+                      "color": "purple"
+                  },
+                  {
+                      "position": [
+                              7.138,
+                              1.812,
+                              -8.379,
+                      ],
+                      "color": "purple"
+                  },
+              ]
+          }
+      },
     {
     #---------------------------------- USFP Ship data --------------------------------
       "key": "usfp_patrol_boat",
@@ -9080,15 +9710,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 80, 80 ],
+      "shields": [
+        80,
+        80
+      ],
       "hullpoints": 2,
       "long_desc": "Sword Class Patrol Boat",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -9103,53 +9744,76 @@
       "drone_launch_timer": 20,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ -118.000, 10.000, 102.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 144,
-                  "barrel_angle": -35
-              },
-              {
-                  "position": [ 0.000, 20.000, 288.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 120,
-                  "barrel_angle": 0
-              },
-              {
-                  "position": [ 118.000, 10.000, 102.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 144,
-                  "barrel_angle": 35
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ 81.000, -10.000, -214.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ -81.000, -10.000, -214.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 0.000, 30.000, -280.000 ],
-                  "color": "white"
-              }
-
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -118.0,
+              10.0,
+              102.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": -35
+          },
+          {
+            "position": [
+              0.0,
+              20.0,
+              288.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 120,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              118.0,
+              10.0,
+              102.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": 35
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              81.0,
+              -10.0,
+              -214.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              -81.0,
+              -10.0,
+              -214.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              0.0,
+              30.0,
+              -280.0
+            ],
+            "color": "white"
+          }
+        ]
       }
     },
     {
@@ -9162,15 +9826,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 80, 80 ],
+      "shields": [
+        80,
+        80
+      ],
       "hullpoints": 2,
       "long_desc": "Hjorden Cruiser",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -9184,48 +9859,68 @@
       "jump_energy_cost": 1,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ 68.000, 80.000, 208.000 ],
-                  "color": "orange",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 160,
-                  "barrel_angle": 60
-              },
-              {
-                  "position": [ -68.000, 80.000, 208.000 ],
-                  "color": "orange",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 160,
-                  "barrel_angle": -60
-              },
-              {
-                  "position": [ 2.000, -30.000, 253.000 ],
-                  "color": "orange",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 80,
-                  "barrel_angle": 0
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ -100.000, 20.000, -262.000 ],
-                  "color": "blue"
-              },
-              {
-                  "position": [ 100.000, 20.000, -262.000 ],
-                  "color": "blue"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              68.0,
+              80.0,
+              208.0
+            ],
+            "color": "orange",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              -68.0,
+              80.0,
+              208.0
+            ],
+            "color": "orange",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 160,
+            "barrel_angle": -60
+          },
+          {
+            "position": [
+              2.0,
+              -30.0,
+              253.0
+            ],
+            "color": "orange",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 80,
+            "barrel_angle": 0
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -100.0,
+              20.0,
+              -262.0
+            ],
+            "color": "blue"
+          },
+          {
+            "position": [
+              100.0,
+              20.0,
+              -262.0
+            ],
+            "color": "blue"
+          }
+        ]
       }
     },
     {
@@ -9238,15 +9933,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 80, 80 ],
+      "shields": [
+        80,
+        80
+      ],
       "hullpoints": 2,
       "long_desc": "Lion Class Supply Ship",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -9260,38 +9966,54 @@
       "jump_energy_cost": 1,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ -70.000, -5.000, 130.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 170,
-                  "barrel_angle": 180
-              },
-              {
-                  "position": [ 70.000, -5.000, 130.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 170,
-                  "barrel_angle": 0
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ 0.000, 23.000, -246.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 0.000, -35.000, -234.000 ],
-                  "color": "white"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -70.0,
+              -5.0,
+              130.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 170,
+            "barrel_angle": 180
+          },
+          {
+            "position": [
+              70.0,
+              -5.0,
+              130.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 170,
+            "barrel_angle": 0
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              0.0,
+              23.0,
+              -246.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              0.0,
+              -35.0,
+              -234.0
+            ],
+            "color": "white"
+          }
+        ]
       }
     },
     {
@@ -9304,15 +10026,26 @@
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
-      "shields": [ 80, 80 ],
+      "shields": [
+        80,
+        80
+      ],
       "hullpoints": 2,
       "long_desc": "Nemesis Class Interceptor",
       "tubecount": 0,
       "torpedostart": [
-          { "Homing": 0 },
-          { "Nuke": 0 },
-          { "EMP": 0 },
-          { "Mine": 0 }
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
       ],
       "internalmapscale": 1.0,
       "internalmapw": 12,
@@ -9326,71 +10059,857 @@
       "jump_energy_cost": 1,
       "roles": "ship",
       "hull_port_sets": {
-          "beam Primary Beams": [
-              {
-                  "position": [ -100.000, 10.000, 95.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 120,
-                  "barrel_angle": -20
-              },
-              {
-                  "position": [ 100.000, 10.000, 95.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1000,
-                  "arcwidth": 120,
-                  "barrel_angle": 20
-              },
-              {
-                  "position": [ -40.000, 24.000, 234.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 70,
-                  "barrel_angle": -10
-              },
-              {
-                  "position": [ 40.000, 24.000, 234.000 ],
-                  "color": "green",
-                  "arccolor": "#500",
-                  "cycle_time": 6,
-                  "damage_coeff": 1,
-                  "range": 1200,
-                  "arcwidth": 70,
-                  "barrel_angle": 10
-              }
-          ],
-          "exhaust": [
-              {
-                  "position": [ -62.000, 70.000, -196.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 62.000, 70.000, -196.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ -94.000, -38.000, -140.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 94.000, -38.000, -140.000 ],
-                  "color": "white"
-              },
-              {
-                  "position": [ 0.000, 30.000, -229.000 ],
-                  "color": "white"
-              }
-          ]
+        "beam Primary Beams": [
+          {
+            "position": [
+              -100.0,
+              10.0,
+              95.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 120,
+            "barrel_angle": -20
+          },
+          {
+            "position": [
+              100.0,
+              10.0,
+              95.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 120,
+            "barrel_angle": 20
+          },
+          {
+            "position": [
+              -40.0,
+              24.0,
+              234.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 70,
+            "barrel_angle": -10
+          },
+          {
+            "position": [
+              40.0,
+              24.0,
+              234.0
+            ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 70,
+            "barrel_angle": 10
+          }
+        ],
+        "exhaust": [
+          {
+            "position": [
+              -62.0,
+              70.0,
+              -196.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              62.0,
+              70.0,
+              -196.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              -94.0,
+              -38.0,
+              -140.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              94.0,
+              -38.0,
+              -140.0
+            ],
+            "color": "white"
+          },
+          {
+            "position": [
+              0.0,
+              30.0,
+              -229.0
+            ],
+            "color": "white"
+          }
+        ]
       }
+    },
+    #---------------------------------- USN Ship Data ---------------------------------
+    {
+      "key": "USN_ScoutF",
+      "name": "ScoutF",
+      "side": "USN",
+      "artfileroot": "TSN Mod/USN/USNScoutF",
+      "meshscale": 0.09,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 6,
+      "long_desc": "Raider/Scout ship of the USN",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        100,
+        100
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.014019,
+              -0.610723,
+              279.929807
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -113.583868,
+              2.133176,
+              257.303163
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          },
+          {
+            "position": [
+              101.263566,
+              1.800177,
+              262.000072
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              0.651004,
+              33.746017,
+              -257.488682
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 3,
+            "damage_coeff": 2.0,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+    {
+      "key": "USN_ScoutG",
+      "name": "ScoutG",
+      "side": "USN",
+      "artfileroot": "TSN Mod/USN/USNScoutG",
+      "meshscale": 0.11,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 6,
+      "long_desc": "Raider/Scout ship of the USN",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        100,
+        100
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.014019,
+              -0.610723,
+              279.929807
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -113.583868,
+              2.133176,
+              257.303163
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          },
+          {
+            "position": [
+              101.263566,
+              1.800177,
+              262.000072
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              0.651004,
+              33.746017,
+              -257.488682
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 3,
+            "damage_coeff": 2.0,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+    {
+      "key": "USN_LightCruiser",
+      "name": "Light Cruiser",
+      "side": "USN",
+      "artfileroot": "TSN Mod/USN/USNLightCruiser",
+      "meshscale": 0.12,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 6,
+      "long_desc": "Medium Raider of the USN",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        100,
+        100
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.014019,
+              -0.610723,
+              279.929807
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -113.583868,
+              2.133176,
+              257.303163
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          },
+          {
+            "position": [
+              101.263566,
+              1.800177,
+              262.000072
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              0.651004,
+              33.746017,
+              -257.488682
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 3,
+            "damage_coeff": 2.0,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+    {
+      "key": "USN_Cruiser",
+      "name": "Cruiser",
+      "side": "USN",
+      "artfileroot": "TSN Mod/USN/USNCruiser",
+      "meshscale": 0.145,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 6,
+      "long_desc": "Fleet Vessel of the USN",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        100,
+        100
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.014019,
+              -0.610723,
+              279.929807
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -113.583868,
+              2.133176,
+              257.303163
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          },
+          {
+            "position": [
+              101.263566,
+              1.800177,
+              262.000072
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              0.651004,
+              33.746017,
+              -257.488682
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 3,
+            "damage_coeff": 2.0,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+    {
+      "key": "USN_Dread",
+      "name": "Dreadnaught",
+      "side": "USN",
+      "artfileroot": "TSN Mod/USN/USNDread",
+      "meshscale": 0.16,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 6,
+      "long_desc": "Heavy Fleet Vessel of the USN",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        100,
+        100
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.014019,
+              -0.610723,
+              279.929807
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -113.583868,
+              2.133176,
+              257.303163
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          },
+          {
+            "position": [
+              101.263566,
+              1.800177,
+              262.000072
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              0.651004,
+              33.746017,
+              -257.488682
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 3,
+            "damage_coeff": 2.0,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+    {
+      "key": "USN_SuperD",
+      "name": "Super Destroyer",
+      "side": "USN",
+      "artfileroot": "TSN Mod/USN/USNSuperDest",
+      "meshscale": 0.4,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 6,
+      "long_desc": "Capital ship of the USN",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        100,
+        100
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.014019,
+              -0.610723,
+              279.929807
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -113.583868,
+              2.133176,
+              257.303163
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          },
+          {
+            "position": [
+              101.263566,
+              1.800177,
+              262.000072
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              0.651004,
+              33.746017,
+              -257.488682
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 3,
+            "damage_coeff": 2.0,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+    #------------------------------------- Calton Data ---------------------------------------------
+    {
+      "key": "Caltron_U1",
+      "name": "Primary",
+      "side": "Caltron",
+      "artfileroot": "TSN Mod/Caltron/U1",
+      "meshscale": 0.03,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 3,
+      "long_desc": "A Single Caltron Unit - Relatively weak, not sentient in its own right more of an automated fighter/scout",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        50,
+        50
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -8.132318,
+              -3.186939,
+              73.745532
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.0,
+            "range": 1000,
+            "arcwidth": 75,
+            "barrel_angle": 0
+          }
+        ]
+      }
+    },
+    {
+      "key": "Caltron_U3",
+      "name": "Tertiary",
+      "side": "Caltron",
+      "artfileroot": "TSN Mod/Caltron/U3",
+      "meshscale": 0.03,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 5,
+      "long_desc": "3 Unit Caltron ship about equivalent to a destroyer. Bloody minded but can communicate at need. Slavish to orders.",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        80,
+        80
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -4.028,
+              33.938,
+              73.745
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1200,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -380.628,
+              43.369,
+              73.745
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1000,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              389.933,
+              54.547,
+              73.745
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1000,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          }
+        ]
+      }
+    },
+    {
+      "key": "Caltron_U6",
+      "name": "Senary",
+      "side": "Caltron",
+      "artfileroot": "TSN Mod/Caltron/U6",
+      "meshscale": 0.03,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 8,
+      "long_desc": "6 Caltron units connected giving enough computing power to make decisions. Loyal to its programing but occasionally flexible in thinking. About equivalent to a heavy cruiser.",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        150,
+        120
+      ],
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -6.591447,
+              189.269216,
+              73.745521
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 5,
+            "damage_coeff": 1.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -378.303078,
+              -200.190969,
+              73.745547
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": -30
+          },
+          {
+            "position": [
+              386.427083,
+              -195.848732,
+              73.745546
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1.0,
+            "range": 1200,
+            "arcwidth": 75,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              3.527016,
+              -198.759912,
+              -73.745513
+            ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 3,
+            "damage_coeff": 2.0,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+    {
+      "key": "Caltron_U12",
+      "name": "Duodenary",
+      "side": "Caltron",
+      "artfileroot": "TSN Mod/Caltron/U12",
+      "meshscale": 0.03,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 12,
+      "long_desc": "12 Caltron Units combined. Has similar compute power to the U6 but is combat focused equivalent to capital ships and may launch a number of primary Caltron units",
+      "turn_rate": 1,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        620,
+        620
+      ]
+    },
+    {
+      "key": "Caltron_U24",
+      "name": "Vigenary-Quaternary",
+      "side": "Caltron",
+      "artfileroot": "TSN Mod/Caltron/U24",
+      "meshscale": 0.03,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 15,
+      "long_desc": "24 Caltron Units - a powerful decision making and stratagizing unit that is not often seen - it acts as a command node and can control most of the units in a system. tends to hide but is extremely dangerous if it enters the frey do not approach with out backup.",
+      "turn_rate": 0.5,
+      "speed_coeff": 0.6,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "key": "Caltron_U48",
+      "name": "Quaternary-Octonary",
+      "side": "Caltron",
+      "artfileroot": "TSN Mod/Caltron/U48",
+      "meshscale": 0.03,
+      "radarscale": 1,
+      "exclusionradius": 20,
+      "hullpoints": 25,
+      "long_desc": "48 Caltron Units. This is a regional command node its not very maneovrable but tough, smart and often has unique abilities, known examples include opening singularity portals for travel to and from, cloaking, orbital bombardment.",
+      "turn_rate": 0.2,
+      "speed_coeff": 0.4,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship,support,patrol,light,defender",
+      "shields": [
+        3000,
+        3000
+      ]
     },
     #---------------------------------- TSN Mod Debris --------------------------------
     {
@@ -9403,7 +10922,6 @@
       "exclusionradius": 0,
       "interactionradius": 100.0
     },
-
     {
       "key": "Debris2",
       "name": "Debris2",
@@ -9496,23 +11014,50 @@
     },
     #---------------------------------- TSN Mod Planets --------------------------------
     {
-          "key": "EarthLike",
-          "name": "EarthLike",
-          "side": "unknown",
-          "artfileroot": "TSN Mod/Planets/Earthlike",
-          "meshscale": 20,
-          "radarscale": 10,
-          "exclusionradius": 1000
+      "key": "EarthLike",
+      "name": "EarthLike",
+      "side": "unknown",
+      "artfileroot": "TSN Mod/Planets/Earthlike",
+      "meshscale": 20,
+      "radarscale": 10,
+      "exclusionradius": 1000
     },
     {
-          "key": "RingPlanet",
-          "name": "RingPlanet",
-          "side": "unknown",
-          "artfileroot": "TSN Mod/Planets/Ring",
-          "meshscale": 20,
-          "radarscale": 10,
-          "exclusionradius": 1000
+      "key": "RingPlanet",
+      "name": "RingPlanet",
+      "side": "unknown",
+      "artfileroot": "TSN Mod/Planets/Ring",
+      "meshscale": 20,
+      "radarscale": 10,
+      "exclusionradius": 1000
     },
+    {
+      "key": "IronMoonPlanet",
+      "name": "IronMoonPlanet",
+      "side": "unknown",
+      "artfileroot": "TSN Mod/Planets/IronMoon",
+      "meshscale": 20,
+      "radarscale": 10,
+      "exclusionradius": 1000
+    },
+    {
+      "key": "ToxicPlanet",
+      "name": "ToxicPlanet",
+      "side": "unknown",
+      "artfileroot": "TSN Mod/Planets/Toxic",
+      "meshscale": 20,
+      "radarscale": 10,
+      "exclusionradius": 1000
+    },
+    {
+      "key": "LavaPlanet",
+      "name": "LavaPlanet",
+      "side": "unknown",
+      "artfileroot": "TSN Mod/Planets/Lava",
+      "meshscale": 20,
+      "radarscale": 10,
+      "exclusionradius": 1000
+    }
   ]
 }
 # keep this end-of-file line, for parsing safety
