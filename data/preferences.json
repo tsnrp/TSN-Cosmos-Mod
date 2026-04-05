@@ -36,21 +36,29 @@
   "render-distance-beams": 4000,
   "render-distance-effects": 4000,
   "render-distance-objects": 5000,
-  "render-distance-large-objects": 10000,
+  "render-distance-nebulae": 15000,
+  "render-distance-asteroids": 35000,
+  "render-distance-large-objects": 50000,
 
   // this value defines the color of the whole GUI
   // it's a string, that follows the color format of CSS3.
   "gui-color-main": "#ccf",
   "gui-color-red-alert": "#600",
 
+  // these values override the diplomatic relationship colors for this type of object
+  // you can comment our these values out, if you want the diplomatic relationship colors
+  //to determine the colors of these objects.
+  "gui-color-ally-ship": "#0ff",
+  "gui-color-ally-station": "#15f",
   "gui-color-your-ship": "#0f0",
   "gui-color-player-ship": "#080",
-  "gui-color-friendly-ship": "#0ff",
+
+  // these values are ignored now, because the diplomatic relationship colors are determined by the script
+  "gui-color-hostile-ship": "#f00",
+  "gui-color-hostile-station": "#f00",
+
   "gui-color-unscanned-object": "#888",
-  "gui-color-surrendered-ship": "#f80",
-  "gui-color-not-friendly-ship": "#f00",
-  "gui-color-friendly-station": "#ff0",
-  "gui-color-not-friendly-station": "#f00",
+  "gui-color-surrendered-ship": "#ff0",
   "gui-color-torpedo": "#8f0",
   "gui-color-drone": "#f48",
   "gui-color-mine": "#f08",
@@ -61,7 +69,7 @@
   "gui-color-nebula": "#22f",
   "gui-color-planet": "#fff",
   "gui-color-pickup": "#fff",
-  "gui-color-unscanned": "#999",
+  //  "gui-color-unscanned": "#999",  unused
 
   "gui-color-deep-background": "#002",
   "gui-color-deep-background-image": "deep_back_tiled_image3",
@@ -72,6 +80,7 @@
   "gui-radar-side-colors-from-selected-ship": "no", //"yes",
 
   "comms-control-button-height": 40,
+  "object-sorted-list-button-h": 30, // for the contact list in sci and comms; size of each button
 
   // nebulas carry their own 2d display color
 
