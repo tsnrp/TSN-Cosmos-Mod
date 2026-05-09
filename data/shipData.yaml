@@ -9,6 +9,7 @@
 #
 
 {
+  "#OrionShipEditor": " This file edited on 2026-04-24 18:09:45 by the Orion Ship Editor Program Version  0.9.5 for Artemis Cosmos v1.2.1",
   #------------------------------------------------------------------
   "#credits-text": "Designed and programmed by^^Thom Robertson",
 
@@ -144,35 +145,34 @@
       "origin": "Arvonian",
       "side": "Arvonian",
       "artfileroot": "arvonian_station",
-      "meshscale": 10.0,
-      "radarscale": 1.0,
-      "internalmapscale": 1.0,
+      "long_desc": "Duchess Class Mixed-Use Space Station. Depending on configuration, it can support both civilian and military power. In either case, it can house up to several wings of defence fighters and has a single modest defensive beam turret.",
+      "meshscale": 10,
+      "radarscale": 1,
+      "internalmapscale": 1,
       "internalmapw": 30,
       "internalmaph": 30,
       "internalsymmetry": 1,
-      "exclusionradius": 120.0,
-      "shields": [
-        400
-      ],
+      "exclusionradius": 120,
+      "shields": [400],
       "hullpoints": 100,
       "roles": "station,carrier",
       "baycount": 14,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0.057,
-              3.153,
-              1.888
-            ],
-            "color": "red",
-            "arccolor": "#090",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 360,
-            "barrel_angle": 0
-          }
+                      "position": [
+                                    0.057,
+                                    3.153,
+                                    1.888,
+                                  ],
+                      "color": "red",
+                      "arccolor": "#090",
+                      "cycle_time": 6,
+                      "damage_coeff": 1,
+                      "range": 2000,
+                      "arcwidth": 360,
+                      "barrel_angle": 0
+                    },
         ]
       }
     },
@@ -183,6 +183,7 @@
       "origin": "Skaraan",
       "side": "Skaraan",
       "artfileroot": "skaraan_station",
+      "long_desc": "Standard Model Skarran Military Post. This modular design is mass-produced with several configurations for widely separate uses. Designed for use by various Skarran war mercenary groups. The base model is unremarkable, but it has an extensive module bay that may hold additional abilities depending on the owner's purse.",
       "meshscale": 10.0,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
@@ -235,6 +236,7 @@
       "origin": "Torgoth",
       "side": "Torgoth",
       "artfileroot": "torgoth_station",
+      "long_desc": "Chieftain Class Torgoth Base. As per Torgoth doctrine, it has some of the heaviest shields known and an armored hull to boot. It has a relatively wimpy single beam, however, but comes equipped with a drone launcher.",
       "meshscale": 15.0503358840942,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
@@ -274,6 +276,7 @@
       "origin": "Kralien",
       "side": "Kralien",
       "artfileroot": "kralien_station",
+      "long_desc": "Collection Class Space Station. This mass-produced design is made for cheap manufacture and even quicker assembly on site. This station can be found throughout Hegemony space as a cost-effective station for all but the most specialist requirements.",
       "meshscale": 10.0,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
@@ -327,7 +330,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_1",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -338,7 +341,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_2",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -349,7 +352,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_3",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -360,7 +363,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_4",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -371,7 +374,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_5",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -382,7 +385,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_6",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -393,7 +396,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_7",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -404,7 +407,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_8",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -415,7 +418,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_9",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -426,7 +429,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_10",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -437,7 +440,7 @@
       "side": "asteroid",
       "artfileroot": "Asteroid_11",
       "meshscale": 0.5,
-      "radarscale": 1.0,
+      "radarscale": 3.0,
       "exclusionradius": 50.0
     },
     {
@@ -644,7 +647,7 @@
       "radarscale": 0.3,
       "exclusionradius": 25.0,
       "meshrotate": 0,
-      "long_desc": "TSN Fighter^Standard fighter of the TSN.^1 forward beam.  5 torpedos.",
+      "long_desc": "TSN Fighter^Standard fighter of the TSN.^1 forward beam.  5 torpedoes.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -741,7 +744,7 @@
       "radarscale": 0.35,
       "exclusionradius": 25.0,
       "meshrotate": 0,
-      "long_desc": "TSN Bomber^Standard bomber of the TSN.^1 forward beam.  10 torpedos.",
+      "long_desc": "TSN Bomber^Standard bomber of the TSN.^1 forward beam.  10 torpedoes.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -1105,7 +1108,7 @@
       "radarscale": 1.0,
       "exclusionradius": 50.0,
       "meshrotate": 0,
-      "long_desc": "TSN Light Carrier^Six Fighters and 2 forward beams",
+      "long_desc": "TSN Light Carrier^Six fighters and 2 forward beams",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -1232,7 +1235,7 @@
       "radarscale": 1.0,
       "exclusionradius": 50.0,
       "meshrotate": 0,
-      "long_desc": "TSN BattleShip^Heavy weapon vessel of the TSN.^4 forward beams^2 Torpedo tubes^Stores for 3 nukes, 10 homing, 6 mines, 6 EMP, 5 PShock.",
+      "long_desc": "TSN Battleship^Heavy weapon vessel of the TSN.^4 forward beams^2 Torpedo tubes^Stores for 3 nukes, 10 homing, 6 mines, 6 EMP, 5 PShock.",
       "tubecount": 2,
       "torpedostart": [
         {
@@ -1492,7 +1495,7 @@
       "radarscale": 0.5,
       "exclusionradius": 20.0,
       "meshrotate": 0,
-      "long_desc": "TSN Warpster^Light utility vessel of the TSN.^1 short range rapid beam^1 Torpedo tubes^Stores for 6 homing and 2 EMP.",
+      "long_desc": "TSN Warpster^Light utility vessel of the TSN.^1 short-range rapid beam^1 Torpedo tubes^Stores for 6 homing and 2 EMP.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -1582,7 +1585,7 @@
       "radarscale": 1.1,
       "exclusionradius": 50.0,
       "meshrotate": 0,
-      "long_desc": "TSN Juggernaut^Ultra heavy warship of the TSN.^4 forward beams^6 fighters^4 Torpedo tubes^Stores for 16 homing, 7 nukes, 7 EMP 10 mines,.",
+      "long_desc": "TSN Juggernaut^Ultra-heavy warship of the TSN.^4 forward beams^6 fighters^4 Torpedo tubes^Stores for 16 homing, 7 nukes, 7 EMP, 10 mines.",
       "tubecount": 4,
       "torpedostart": [
         {
@@ -2948,9 +2951,9 @@
         "beam Primary Beams": [
           {
             "position": [
-              -3.06892991065979,
-              0.0,
-              12.8686723709106
+                    2.990226,
+                    0.044438,
+                    12.835652
             ],
             "color": "red",
             "arccolor": "#500",
@@ -2958,13 +2961,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144
-            # "barrel_angle": 18
+            "barrel_angle": 36
           },
           {
             "position": [
-              -4.29089260101318,
-              0.0,
-              8.10301685333252
+                    -2.990226,
+                    0.044438,
+                    12.835652
             ],
             "color": "red",
             "arccolor": "#500",
@@ -2972,13 +2975,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144
-            # "barrel_angle": 54
+            "barrel_angle": 324
           },
           {
             "position": [
-              -3.32834672927856,
-              0.0,
-              1.11579239368439
+                    4.066936,
+                    0.010443,
+                    9.579298
             ],
             "color": "red",
             "arccolor": "#500",
@@ -2986,13 +2989,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144
-            #  "barrel_angle": 90
+            "barrel_angle": 72
           },
           {
             "position": [
-              -2.51504015922546,
-              0.0,
-              -7.50605773925781
+                    -4.066936,
+                    0.010443,
+                    9.579298
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3000,13 +3003,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144
-            # "barrel_angle": 126
+            "barrel_angle": 288
           },
           {
             "position": [
-              -1.88402664661407,
-              0.0,
-              -9.64849948883057
+                    -3.379749,
+                    0.319317,
+                    1.900981
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3014,13 +3017,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144
-            # "barrel_angle": 162
+            "barrel_angle": 252
           },
           {
             "position": [
-              3.06892991065979,
-              0.0,
-              12.8686723709106
+                    3.379749,
+                    0.319317,
+                    1.900981
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3028,13 +3031,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144
-            # "barrel_angle": 342
+            "barrel_angle": 108
           },
           {
             "position": [
-              4.09958553314209,
-              0.0,
-              9.47421932220459
+                    1.047217,
+                    0.488403,
+                    -10.240839
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3042,13 +3045,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144
-            # "barrel_angle": 306
+            "barrel_angle": 144
           },
           {
             "position": [
-              3.32834672927856,
-              0.0,
-              1.11579239368439
+                    -1.047217,
+                    0.488403,
+                    -10.240839
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3056,13 +3059,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
-            "barrel_angle": 270
+            "barrel_angle": 216
           },
           {
             "position": [
-              4.29089260101318,
-              0.0,
-              8.10301685333252
+                    0.0,
+                    0.280601,
+                    -10.793388
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3070,13 +3073,13 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
-            "barrel_angle": 234
+            "barrel_angle": 180
           },
           {
             "position": [
-              1.88402664661407,
-              0.0,
-              -9.64849948883057
+                    -0.0,
+                    0.082595,
+                    15.456197
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3084,7 +3087,7 @@
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
-            "barrel_angle": 198
+            "barrel_angle": 0
           }
         ],
         "exhaust": [
@@ -5052,7 +5055,7 @@
         120
       ],
       "hullpoints": 4,
-      "long_desc": "Displacement: 25 kt.  Armament: 2 rapid fire beams, 1 heavy beam. The most dangerous Kralien ship.",
+      "long_desc": "Displacement: 25 kt.  Armament: 2 rapid-fire beams, 1 heavy beam. The most dangerous Kralien ship.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -5677,7 +5680,7 @@
         15
       ],
       "hullpoints": 1,
-      "long_desc": "Ximni single seat fighter.",
+      "long_desc": "Ximni single-seat fighter.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -6268,7 +6271,7 @@
         220
       ],
       "hullpoints": 9,
-      "long_desc": "Ximni Dreadnought^Heaviest wartime vessel of the Ximni.^4 primary beams, long range and fast firing^3 Torpedo tubes^Stores for 10 homing, 4 nukes, 5 EMP, 8 mines, 4 PShock.",
+      "long_desc": "Ximni Dreadnought^Heaviest wartime vessel of the Ximni.^4 primary beams, long-range and fast-firing^3 Torpedo tubes^Stores for 10 homing, 4 nukes, 5 EMP, 8 mines, 4 PShock.",
       "baycount": 4,
       "tubecount": 3,
       "torpedostart": [
@@ -6511,7 +6514,7 @@
         70
       ],
       "hullpoints": 2,
-      "long_desc": "Light utility vessel of the Ximni fleet. One forward beam, one torpedo tube.Stores 6 homing and 2 EMP.",
+      "long_desc": "Light utility vessel of the Ximni fleet. One forward beam, one torpedo tube. Stores 6 homing and 2 EMP.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -6600,7 +6603,7 @@
         100
       ],
       "hullpoints": 3,
-      "long_desc": "Standard long range patrol ship of the Ximni fleet. ^3 beams^2 Torpedo tubes^Stores for 8 homing, 2 nukes, 4 EMP, 6 mines, 2 PShock.",
+      "long_desc": "Standard long-range patrol ship of the Ximni fleet. ^3 beams^2 Torpedo tubes^Stores for 8 homing, 2 nukes, 4 EMP, 6 mines, 2 PShock.",
       "tubecount": 2,
       "torpedostart": [
         {
@@ -6710,7 +6713,7 @@
         80
       ],
       "hullpoints": 4,
-      "long_desc": "Specialized Ximni fleet fire upport ship. ^4 Torpedo tubes, 1 rear beam^Stores for 20 homing, 8 nukes, 12 EMP, 14 mines, 6 PShock.",
+      "long_desc": "Specialized Ximni fleet fire-support ship. ^4 Torpedo tubes, 1 rear beam^Stores for 20 homing, 8 nukes, 12 EMP, 14 mines, 6 PShock.",
       "tubecount": 4,
       "torpedostart": [
         {
@@ -6784,7 +6787,7 @@
         90
       ],
       "hullpoints": 2,
-      "long_desc": "Ximni Scout^Long range scout vessel of the Ximni.^1 forward beam^1 Torpedo tube^Stores for 6 homing, 2 EMP, 2 mines, 1 PShock.",
+      "long_desc": "Ximni Scout^Long-range scout vessel of the Ximni.^1 forward beam^1 Torpedo tube^Stores for 6 homing, 2 EMP, 2 mines, 1 PShock.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -8013,6 +8016,7 @@
       "name": "Jump Node",
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/JumpNode",
+      "long_desc": "Oliver Class Jump Tether. This unit tethers and provides critical sensor and nav data to ships wanting to transition the linked naturally forming jump node. Most civilian ships can't travel intersolar without a properly functioning node.",
       "meshscale": 14.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
@@ -8037,6 +8041,7 @@
       "internalmaph": 30,
       "internalsymmetry": 1,
       "exclusionradius": 120.0,
+      "long_desc": "The Deep Solitude DS Station is designed to exist on the frontiers of USFP space with little to no support. Strong shields, a large cargo bay, and other defences mean it can hold its own. It has a decent science wing and good amenities.",
       "shields": [
         600
       ],
@@ -8070,6 +8075,7 @@
       "meshscale": 1,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "The Vorkosican Class Beam Platform offers a stable power supply for some of the longest-range beams the USFP knows how to construct. Often found at sites of particular importance to the USFP, its design was stolen a number of years ago.",
       "shields": [
         500
       ],
@@ -8145,6 +8151,7 @@
       "meshscale": 0.7,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "Defensive torpedo battery. Has a large supply of standardised torpedoes. Not especially threatening to a military ship, but very persistent and has a wide area of influence.",
       "shields": [
         500
       ],
@@ -8193,6 +8200,7 @@
       "meshscale": 0.05,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "The Allard Industries Fighter Platform is a high-tech mini station designed exclusively as a defensive or patrol point base for light in-system shuttles and combat craft. Often used by the USFP Customs Agency at borders to house inspection craft or at military facilities to provide a greater patrol and defence installation than torpedo or beam batteries.",
       "shields": [
         500
       ],
@@ -8264,6 +8272,7 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "Unity Class Industrial Unit. This is basically a large box where all sorts of additive and reductive processing occurs to produce components or finished items. Typically has a large wing for design.",
       "shields": [
         200
       ],
@@ -8280,6 +8289,7 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "This is a storage area for nearby stations and industrial facilities. Rarely has anything more than a basic docking system and is typically private.",
       "shields": [
         200
       ],
@@ -8296,6 +8306,7 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "This large unit is designed to break down raw asteroids into useful materials; half of the USFP is built from outputs of units like this.",
       "shields": [
         200
       ],
@@ -8312,6 +8323,7 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "The Theros Type Industrial Processor, useful for creating many types of components out of refined bar stock, or simply the industrial-scale manufacturing of simple items.",
       "shields": [
         200
       ],
@@ -8328,6 +8340,7 @@
       "meshscale": 2.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "This is a Bidilin Class modular Industrial Assembly Unit. It specialises in final assembly of goods from components, from home appliances to lab equipment to even small spacecraft. This unit can be configured for a wide range of applications.",
       "shields": [
         200
       ],
@@ -8344,6 +8357,7 @@
       "meshscale": 1.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "ARC-class shipyard — Auxiliary Refit and Construction — A modular support platform designed for the assembly, repair, and modernization of military and commercial spacecraft. The class features expandable drydock frames, heavy fabrication gantries, stores modules, and reactor service booms.",
       "shields": [
         200
       ],
@@ -8360,6 +8374,7 @@
       "meshscale": 0.3,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "Built into an asteroid, this base has a lot of the features of a normal commercial space station, without the safety regs. It appears to have a small fighter bay and a modular mount for other defences.",
       "shields": [
         200
       ],
@@ -8376,6 +8391,7 @@
       "meshscale": 0.3,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "This is a small storage location often used for storing loot and supplies. Has minimal life support capacity and limited defences.",
       "shields": [
         200
       ],
@@ -8392,6 +8408,7 @@
       "meshscale": 0.5,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "A high-powered generator. This unit can be modified in a number of ways for various purposes, all of them requiring high amounts of energy. It can remotely beam power to nearby ships or structures, or in some instances be used by onboard equipment.",
       "shields": [
         200
       ],
@@ -8436,9 +8453,10 @@
       "name": "Platform",
       "side": "arvonian",
       "artfileroot": "TSN Mod/Hegemony/ArvonianPlatform",
-      "meshscale": 1.0,
+      "meshscale": 0.2,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "Arvonian Fighter Platform. Contains maintenance, barracks, and command facilities for a large wing of small fighters or bombers. This variant is optimised for Arvonian use.",
       "shields": [
         200
       ],
@@ -8452,9 +8470,10 @@
       "name": "Gas Extractor",
       "side": "kralien",
       "artfileroot": "TSN Mod/Hegemony/GasExtractor",
-      "meshscale": 1.0,
+      "meshscale": 0.2,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "This Industrial Facility is Torgoth in origin; however, it has been co-opted by the Hegemony factions at large. It is designed to extract materials from nebulae for use in many industrial processes.",
       "shields": [
         200
       ],
@@ -8471,6 +8490,7 @@
       "meshscale": 1.0,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
+      "long_desc": "A Hegemony-designed docking facility for the construction, overhaul, and repair of Hegemony spaceships.",
       "shields": [
         200
       ],
@@ -8484,6 +8504,7 @@
       "name": "Light Craft Base",
       "side": "arvonian",
       "artfileroot": "TSN Mod/Hegemony/ArvonianPlatform",
+      "long_desc": "The Hive Class Light Craft Platform is of Arvonian origin; however, it has been deployed throughout Hegemony space wherever a volume of space needs to be defended or patrolled.",
       "meshscale": 0.2,
       "radarscale": 1,
       "exclusionradius": 120,
@@ -8587,6 +8608,7 @@
       "name": "Beam Defense",
       "side": "kralien",
       "artfileroot": "TSN Mod/Hegemony/HegBeamPlatform",
+      "long_desc": "Kralien in manufacture, this is a standardised beam defence platform that can be found in all territories of the Hegemony. 5 x 1.2G beams are its typical loadout, but it is designed with some upgradability in mind.",
       "meshscale": 0.2,
       "radarscale": 1,
       "exclusionradius": 120,
@@ -8692,6 +8714,7 @@
       "origin": "Kralien",
       "side": "Kralien",
       "artfileroot": "TSN Mod/Hegemony/SlingShotAccumulator",
+      "long_desc": "This device is designed to accumulate huge amounts of power and store it for use with a slingshot array or other super-high-energy device. Whilst the device normally dissipates energy safely on destruction, under some circumstances it can detonate with the force of many anti-ship nukes.",
       "meshscale": 0.2,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
@@ -8712,6 +8735,7 @@
       "origin": "Kralien",
       "side": "Kralien",
       "artfileroot": "TSN Mod/Hegemony/SlingShotPlatform",
+      "long_desc": "The Slingshot Platform design was stolen from the USFP during the Long Bar Conflict. It is an old FTL method that literally flings fleets across several sectors. It can fire multiple times an hour depending on the energy available. After use for between 30 minutes and 3 hours, it requires extensive downtime. Inherently inaccurate, even when the destination has a set-up antenna.",
       "meshscale": 0.3,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
@@ -8732,6 +8756,7 @@
       "origin": "Kralien",
       "side": "Kralien",
       "artfileroot": "TSN Mod/Hegemony/SlingShotAntenna",
+      "long_desc": "This is a target antenna for a slingshot array. It is designed to pull ships that are travelling via slingshot towards it, inducing the field to collapse nearby, 0-100K, as opposed to somewhere inside about 20 AU.",
       "meshscale": 0.3,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
@@ -8922,7 +8947,7 @@
       "radarscale": 0.5,
       "exclusionradius": 40,
       "meshrotate": 0,
-      "long_desc": "Displacement: 0.015 kt. Armament: 2 light beams.",
+      "long_desc": "Displacement: 0.015 kt. Armament: 1 light beam and 1 drone or torpedo launcher.",
       "internalmapscale": 1,
       "internalmapw": 10,
       "internalmaph": 7,
@@ -9181,7 +9206,7 @@
         80
       ],
       "hullpoints": 2,
-      "long_desc": "Kralien Drone Cruiser",
+      "long_desc": "Kralien Drone Cruiser. Slightly modernized cruiser with an early drone launcher design purchased from the Torgoths and manufactured under license.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -9275,7 +9300,7 @@
         100
       ],
       "hullpoints": 10,
-      "long_desc": "Hegemony Armored Transport",
+      "long_desc": "Hegemony Armored Transport. This design is used extensively both militarily and in civilian use. It is both armed and armored to deal with pirates and raids.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -9390,7 +9415,7 @@
         80
       ],
       "hullpoints": 2,
-      "long_desc": "Arrow Class Scout Cruiser",
+      "long_desc": "Arrow Class Scout Cruiser. Fast but typically easy to outmanoeuvre, it is used for scouting and interception duties.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -9499,7 +9524,7 @@
         80
       ],
       "hullpoints": 2,
-      "long_desc": "Axe Class Cruiser",
+      "long_desc": "Axe Class Cruiser. The Axe is a more general combatant. It is moderately tough to kill, but has a unique multi-barrelled beam array that is capable of firing very rapidly. This is significantly weaker against shields, but devastating against armor and hull.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -9620,7 +9645,7 @@
           "meshrotate": 0,
           "shields": [ 120, 120 ],
           "hullpoints": 8,
-          "long_desc": "An unarmed colony transport, filled with homesteading cargo and civilian colonists. Displacement: 80 kt.",
+          "long_desc": "An unarmed colony transport, typically filled with cargo and civilians. Displacement: 80 kt.",
           "tubecount": 0,
           "torpedostart": [
               {
@@ -9715,7 +9740,7 @@
         80
       ],
       "hullpoints": 2,
-      "long_desc": "Sword Class Patrol Boat",
+      "long_desc": "Sword Class Patrol Boat. Used by system defence forces and various licensed security forces.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -9831,7 +9856,7 @@
         80
       ],
       "hullpoints": 2,
-      "long_desc": "Hjorden Cruiser",
+      "long_desc": "Hjorden Cruiser. The Hjorden's only known class of military ship, modest in all respects save that it can be fitted with a number of special modules such as cloaking, Jump Drive, or Anti-Mine technology.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -9883,8 +9908,8 @@
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
+            "damage_coeff": 1.2,
+            "range": 1200,
             "arcwidth": 160,
             "barrel_angle": -60
           },
@@ -9896,8 +9921,8 @@
             ],
             "color": "orange",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
+            "cycle_time": 4,
+            "damage_coeff": 1.2,
             "range": 1200,
             "arcwidth": 80,
             "barrel_angle": 0
@@ -9938,7 +9963,7 @@
         80
       ],
       "hullpoints": 2,
-      "long_desc": "Lion Class Supply Ship",
+      "long_desc": "Lion Class Supply Ship. An armed replenishment and transport ship for the TSN.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -10164,7 +10189,7 @@
     #---------------------------------- USN Ship Data ---------------------------------
     {
       "key": "USN_ScoutF",
-      "name": "ScoutF",
+      "name": "Scout F",
       "side": "USN",
       "artfileroot": "TSN Mod/USN/USNScoutF",
       "meshscale": 0.09,
@@ -10246,7 +10271,7 @@
     },
     {
       "key": "USN_ScoutG",
-      "name": "ScoutG",
+      "name": "Scout G",
       "side": "USN",
       "artfileroot": "TSN Mod/USN/USNScoutG",
       "meshscale": 0.11,
@@ -10664,7 +10689,7 @@
       "radarscale": 1,
       "exclusionradius": 20,
       "hullpoints": 3,
-      "long_desc": "A Single Caltron Unit - Relatively weak, not sentient in its own right more of an automated fighter/scout",
+      "long_desc": "A single Caltron unit. Relatively weak, not sentient in its own right; more of an automated fighter/scout.",
       "turn_rate": 1,
       "speed_coeff": 1,
       "scan_strength_coeff": 1,
@@ -10704,7 +10729,7 @@
       "radarscale": 1,
       "exclusionradius": 20,
       "hullpoints": 5,
-      "long_desc": "3 Unit Caltron ship about equivalent to a destroyer. Bloody minded but can communicate at need. Slavish to orders.",
+      "long_desc": "3-unit Caltron ship about equivalent to a destroyer. Bloody-minded but can communicate at need. Slavish to orders.",
       "turn_rate": 1,
       "speed_coeff": 1,
       "scan_strength_coeff": 1,
@@ -10772,7 +10797,7 @@
       "radarscale": 1,
       "exclusionradius": 20,
       "hullpoints": 8,
-      "long_desc": "6 Caltron units connected giving enough computing power to make decisions. Loyal to its programing but occasionally flexible in thinking. About equivalent to a heavy cruiser.",
+      "long_desc": "6 Caltron units connected, giving enough computing power to make decisions. Loyal to its programming but occasionally flexible in thinking. About equivalent to a heavy cruiser.",
       "turn_rate": 1,
       "speed_coeff": 1,
       "scan_strength_coeff": 1,
@@ -10854,7 +10879,7 @@
       "radarscale": 1,
       "exclusionradius": 20,
       "hullpoints": 12,
-      "long_desc": "12 Caltron Units combined. Has similar compute power to the U6 but is combat focused equivalent to capital ships and may launch a number of primary Caltron units",
+      "long_desc": "12 Caltron units combined. Has similar compute power to the U6 but is combat-focused, equivalent to capital ships, and may launch a number of primary Caltron units.",
       "turn_rate": 1,
       "speed_coeff": 1,
       "scan_strength_coeff": 1,
@@ -10876,7 +10901,7 @@
       "radarscale": 1,
       "exclusionradius": 20,
       "hullpoints": 15,
-      "long_desc": "24 Caltron Units - a powerful decision making and stratagizing unit that is not often seen - it acts as a command node and can control most of the units in a system. tends to hide but is extremely dangerous if it enters the frey do not approach with out backup.",
+      "long_desc": "24 Caltron units. A powerful decision-making and strategising unit that is not often seen. It acts as a command node and can control most of the units in a system. It tends to hide but is extremely dangerous if it enters the fray. Do not approach without backup.",
       "turn_rate": 0.5,
       "speed_coeff": 0.6,
       "scan_strength_coeff": 1,
@@ -10898,7 +10923,7 @@
       "radarscale": 1,
       "exclusionradius": 20,
       "hullpoints": 25,
-      "long_desc": "48 Caltron Units. This is a regional command node its not very maneovrable but tough, smart and often has unique abilities, known examples include opening singularity portals for travel to and from, cloaking, orbital bombardment.",
+      "long_desc": "48 Caltron units. This is a regional command node. It is not very manoeuvrable but is tough, smart, and often has unique abilities. Known examples include opening singularity portals for travel to and from, cloaking, and orbital bombardment.",
       "turn_rate": 0.2,
       "speed_coeff": 0.4,
       "scan_strength_coeff": 1,
@@ -11018,45 +11043,55 @@
       "name": "EarthLike",
       "side": "unknown",
       "artfileroot": "TSN Mod/Planets/Earthlike",
+      "long_desc": "Earth-like, with atmospheres containing oxygen between 12%-30%. Capable of supporting most life forms to some extent.",
       "meshscale": 20,
       "radarscale": 10,
-      "exclusionradius": 1000
+      "exclusionradius": 1000,
+      "roles": "Planet,static",
     },
     {
       "key": "RingPlanet",
-      "name": "RingPlanet",
+      "name": "Gas Giant",
       "side": "unknown",
       "artfileroot": "TSN Mod/Planets/Ring",
+      "long_desc": "A gas giant is a huge planet made entirely of base gases. They have dense atmospheres and are generally made of the same materials as stars; however, they lack the mass necessary to begin nuclear fusion.",
       "meshscale": 20,
       "radarscale": 10,
-      "exclusionradius": 1000
+      "exclusionradius": 1000,
+      "roles": "Planet,static",
     },
     {
       "key": "IronMoonPlanet",
-      "name": "IronMoonPlanet",
+      "name": "Iron Moon",
       "side": "unknown",
       "artfileroot": "TSN Mod/Planets/IronMoon",
+      "long_desc": "This object is known to be of Caltron or Old Ones manufacture, but little is known about it. Last seen during the Caltron Emergence, it vanished from known space on stardate 41123.",
       "meshscale": 20,
       "radarscale": 10,
-      "exclusionradius": 1000
+      "exclusionradius": 1000,
+      "roles": "Planet,static",
     },
     {
       "key": "ToxicPlanet",
       "name": "ToxicPlanet",
       "side": "unknown",
       "artfileroot": "TSN Mod/Planets/Toxic",
+      "long_desc": "This planet contains high levels of toxic material and is hostile to life in general.",
       "meshscale": 20,
       "radarscale": 10,
-      "exclusionradius": 1000
+      "exclusionradius": 1000,
+      "roles": "Planet,static",
     },
     {
       "key": "LavaPlanet",
       "name": "LavaPlanet",
       "side": "unknown",
       "artfileroot": "TSN Mod/Planets/Lava",
+      "long_desc": "This planet is still in its infancy with a mostly molten crust; it does, however, have plenty of interesting materials on its surface for those willing to risk the unstable surface.",
       "meshscale": 20,
       "radarscale": 10,
-      "exclusionradius": 1000
+      "exclusionradius": 1000,
+      "roles": "Planet,static",
     }
   ]
 }

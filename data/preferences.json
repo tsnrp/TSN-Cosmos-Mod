@@ -156,7 +156,7 @@
   //       3 sub-folders, "high", "low", and "medium".  The songs in these folders should conform to high, medium, or low
   //       excitement levels.  Next to these three subfolders, inside your custom music folder, should be 4 song files;
   //       "main", "start", "failure", and "victory".   ALL music files should be in the OGG format, and have the .OGG suffix.
-  "music_base_folder": "default",
+  "music_base_folder": "TSNMod",
   //"music_base_folder": "Artemis2",
 
   // game sfx
