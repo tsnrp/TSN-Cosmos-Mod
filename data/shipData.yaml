@@ -278,7 +278,7 @@
       "artfileroot": "kralien_station",
       "long_desc": "Collection Class Space Station. This mass-produced design is made for cheap manufacture and even quicker assembly on site. This station can be found throughout Hegemony space as a cost-effective station for all but the most specialist requirements.",
       "meshscale": 10.0,
-      "radarscale": 1.0,
+      "radarscale": 1.2,
       "internalmapscale": 1.0,
       "internalmapw": 30,
       "internalmaph": 30,
@@ -2960,7 +2960,7 @@
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
             "barrel_angle": 36
           },
           {
@@ -2974,7 +2974,7 @@
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
             "barrel_angle": 324
           },
           {
@@ -2988,7 +2988,7 @@
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
             "barrel_angle": 72
           },
           {
@@ -3002,7 +3002,7 @@
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
             "barrel_angle": 288
           },
           {
@@ -3016,7 +3016,7 @@
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
             "barrel_angle": 252
           },
           {
@@ -3030,7 +3030,7 @@
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
             "barrel_angle": 108
           },
           {
@@ -3044,7 +3044,7 @@
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 144
+            "arcwidth": 144,
             "barrel_angle": 144
           },
           {
@@ -3077,9 +3077,9 @@
           },
           {
             "position": [
-                    -0.0,
-                    0.082595,
-                    15.456197
+              0,
+              0.082595,
+              15.456197
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3133,7 +3133,7 @@
       "origin": "Arvonian",
       "side": "Arvonian",
       "artfileroot": "ArvoFighter",
-      "meshscale": 0.25,
+      "meshscale": 0.894964098930359,
       "radarscale": 0.3,
       "exclusionradius": 40.0,
       "meshrotate": 0,
@@ -3751,7 +3751,7 @@
       "origin": "Terran",
       "side": "USFP",
       "artfileroot": "leisure_vessel",
-      "meshscale": 6.77265119552612,
+      "meshscale": 11.8089590072632,
       "radarscale": 1.1,
       "exclusionradius": 50.0,
       "meshrotate": 0,
@@ -3959,7 +3959,7 @@
       "origin": "Terran",
       "side": "USFP",
       "artfileroot": "science_vessel",
-      "meshscale": 4.83322143554688,
+      "meshscale": 8.81170845031738,
       "radarscale": 1.0,
       "exclusionradius": 40.0,
       "meshrotate": 0,
@@ -5159,8 +5159,8 @@
       "origin": "Pirate",
       "side": "Pirate",
       "artfileroot": "pirate_fighter",
-      "meshscale": 0.025000000372529,
-      "radarscale": 1.0,
+      "meshscale": 0.0382885932922363,
+      "radarscale": 0.5,
       "exclusionradius": 50.0,
       "meshrotate": 0,
       "shields": [
@@ -8035,7 +8035,7 @@
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/DSStation",
       "meshscale": 0.399715006351471,
-      "radarscale": 1.0,
+      "radarscale": 1.1,
       "internalmapscale": 1.0,
       "internalmapw": 30,
       "internalmaph": 30,
@@ -8304,7 +8304,7 @@
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/IndustrialRefinary",
       "meshscale": 2.0,
-      "radarscale": 1.0,
+      "radarscale": 1.2,
       "exclusionradius": 120.0,
       "long_desc": "This large unit is designed to break down raw asteroids into useful materials; half of the USFP is built from outputs of units like this.",
       "shields": [
@@ -8321,7 +8321,7 @@
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/IndustrialProcessor",
       "meshscale": 2.0,
-      "radarscale": 1.0,
+      "radarscale": 1.5,
       "exclusionradius": 120.0,
       "long_desc": "The Theros Type Industrial Processor, useful for creating many types of components out of refined bar stock, or simply the industrial-scale manufacturing of simple items.",
       "shields": [
@@ -8338,7 +8338,7 @@
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/IndustrialAssembler",
       "meshscale": 2.0,
-      "radarscale": 1.0,
+      "radarscale": 1.2,
       "exclusionradius": 120.0,
       "long_desc": "This is a Bidilin Class modular Industrial Assembly Unit. It specialises in final assembly of goods from components, from home appliances to lab equipment to even small spacecraft. This unit can be configured for a wide range of applications.",
       "shields": [
@@ -8354,9 +8354,9 @@
       "name": "Ship Yard",
       "side": "USFP",
       "artfileroot": "TSN Mod/USFP/ShipYard",
-      "meshscale": 1.0,
-      "radarscale": 1.0,
-      "exclusionradius": 120.0,
+      "meshscale": 0.55,
+      "radarscale": 2.0,
+      "exclusionradius": 1.0,
       "long_desc": "ARC-class shipyard — Auxiliary Refit and Construction — A modular support platform designed for the assembly, repair, and modernization of military and commercial spacecraft. The class features expandable drydock frames, heavy fabrication gantries, stores modules, and reactor service booms.",
       "shields": [
         200
@@ -8372,7 +8372,7 @@
       "side": "pirate",
       "artfileroot": "TSN Mod/Pirate/PirateBaseAst",
       "meshscale": 0.3,
-      "radarscale": 1.0,
+      "radarscale": 1.1,
       "exclusionradius": 120.0,
       "long_desc": "Built into an asteroid, this base has a lot of the features of a normal commercial space station, without the safety regs. It appears to have a small fighter bay and a modular mount for other defences.",
       "shields": [
@@ -8388,8 +8388,8 @@
       "name": "Cache",
       "side": "pirate",
       "artfileroot": "TSN Mod/Pirate/PirateCache",
-      "meshscale": 0.3,
-      "radarscale": 1.0,
+      "meshscale": 0.101577185094357,
+      "radarscale": 0.8,
       "exclusionradius": 120.0,
       "long_desc": "This is a small storage location often used for storing loot and supplies. Has minimal life support capacity and limited defences.",
       "shields": [
@@ -8487,9 +8487,9 @@
       "name": "Dry Dock",
       "side": "kralien",
       "artfileroot": "TSN Mod/Hegemony/HegDryDock",
-      "meshscale": 1.0,
-      "radarscale": 1.0,
-      "exclusionradius": 120.0,
+      "meshscale": 0.3,
+      "radarscale": 2.0,
+      "exclusionradius": 1.0,
       "long_desc": "A Hegemony-designed docking facility for the construction, overhaul, and repair of Hegemony spaceships.",
       "shields": [
         200
@@ -8737,7 +8737,7 @@
       "artfileroot": "TSN Mod/Hegemony/SlingShotPlatform",
       "long_desc": "The Slingshot Platform design was stolen from the USFP during the Long Bar Conflict. It is an old FTL method that literally flings fleets across several sectors. It can fire multiple times an hour depending on the energy available. After use for between 30 minutes and 3 hours, it requires extensive downtime. Inherently inaccurate, even when the destination has a set-up antenna.",
       "meshscale": 0.3,
-      "radarscale": 1.0,
+      "radarscale": 2.5,
       "internalmapscale": 1.0,
       "internalmapw": 30,
       "internalmaph": 30,
@@ -9632,7 +9632,7 @@
         ]
       }
     },
-      {
+    {
           #---------------------------------- Pirate Ship data --------------------------------
           "key": "pirate_transport",
           "name": "Transport",
@@ -10794,7 +10794,7 @@
       "side": "Caltron",
       "artfileroot": "TSN Mod/Caltron/U6",
       "meshscale": 0.03,
-      "radarscale": 1,
+      "radarscale": 1.1,
       "exclusionradius": 20,
       "hullpoints": 8,
       "long_desc": "6 Caltron units connected, giving enough computing power to make decisions. Loyal to its programming but occasionally flexible in thinking. About equivalent to a heavy cruiser.",
@@ -10876,7 +10876,7 @@
       "side": "Caltron",
       "artfileroot": "TSN Mod/Caltron/U12",
       "meshscale": 0.03,
-      "radarscale": 1,
+      "radarscale": 1.1,
       "exclusionradius": 20,
       "hullpoints": 12,
       "long_desc": "12 Caltron units combined. Has similar compute power to the U6 but is combat-focused, equivalent to capital ships, and may launch a number of primary Caltron units.",
@@ -10898,7 +10898,7 @@
       "side": "Caltron",
       "artfileroot": "TSN Mod/Caltron/U24",
       "meshscale": 0.03,
-      "radarscale": 1,
+      "radarscale": 1.2,
       "exclusionradius": 20,
       "hullpoints": 15,
       "long_desc": "24 Caltron units. A powerful decision-making and strategising unit that is not often seen. It acts as a command node and can control most of the units in a system. It tends to hide but is extremely dangerous if it enters the fray. Do not approach without backup.",
@@ -10920,7 +10920,7 @@
       "side": "Caltron",
       "artfileroot": "TSN Mod/Caltron/U48",
       "meshscale": 0.03,
-      "radarscale": 1,
+      "radarscale": 1.2,
       "exclusionradius": 20,
       "hullpoints": 25,
       "long_desc": "48 Caltron units. This is a regional command node. It is not very manoeuvrable but is tough, smart, and often has unique abilities. Known examples include opening singularity portals for travel to and from, cloaking, and orbital bombardment.",
@@ -11045,9 +11045,9 @@
       "artfileroot": "TSN Mod/Planets/Earthlike",
       "long_desc": "Earth-like, with atmospheres containing oxygen between 12%-30%. Capable of supporting most life forms to some extent.",
       "meshscale": 20,
-      "radarscale": 10,
+      "radarscale": 8,
       "exclusionradius": 1000,
-      "roles": "Planet,static",
+      "roles": "Planet,static"
     },
     {
       "key": "RingPlanet",
@@ -11056,9 +11056,9 @@
       "artfileroot": "TSN Mod/Planets/Ring",
       "long_desc": "A gas giant is a huge planet made entirely of base gases. They have dense atmospheres and are generally made of the same materials as stars; however, they lack the mass necessary to begin nuclear fusion.",
       "meshscale": 20,
-      "radarscale": 10,
+      "radarscale": 8,
       "exclusionradius": 1000,
-      "roles": "Planet,static",
+      "roles": "Planet,static"
     },
     {
       "key": "IronMoonPlanet",
@@ -11067,9 +11067,9 @@
       "artfileroot": "TSN Mod/Planets/IronMoon",
       "long_desc": "This object is known to be of Caltron or Old Ones manufacture, but little is known about it. Last seen during the Caltron Emergence, it vanished from known space on stardate 41123.",
       "meshscale": 20,
-      "radarscale": 10,
+      "radarscale": 8,
       "exclusionradius": 1000,
-      "roles": "Planet,static",
+      "roles": "Planet,static"
     },
     {
       "key": "ToxicPlanet",
@@ -11078,9 +11078,9 @@
       "artfileroot": "TSN Mod/Planets/Toxic",
       "long_desc": "This planet contains high levels of toxic material and is hostile to life in general.",
       "meshscale": 20,
-      "radarscale": 10,
+      "radarscale": 8,
       "exclusionradius": 1000,
-      "roles": "Planet,static",
+      "roles": "Planet,static"
     },
     {
       "key": "LavaPlanet",
@@ -11089,9 +11089,9 @@
       "artfileroot": "TSN Mod/Planets/Lava",
       "long_desc": "This planet is still in its infancy with a mostly molten crust; it does, however, have plenty of interesting materials on its surface for those willing to risk the unstable surface.",
       "meshscale": 20,
-      "radarscale": 10,
+      "radarscale": 8,
       "exclusionradius": 1000,
-      "roles": "Planet,static",
+      "roles": "Planet,static"
     }
   ]
 }
