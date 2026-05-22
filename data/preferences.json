@@ -35,7 +35,7 @@
   // these values define the limits of the 3D view
   "render-distance-beams": 4000,
   "render-distance-effects": 4000,
-  "render-distance-objects": 5000,
+  "render-distance-objects": 35000,
   "render-distance-nebulae": 15000,
   "render-distance-asteroids": 35000,
   "render-distance-large-objects": 50000,

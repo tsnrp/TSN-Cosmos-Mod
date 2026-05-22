@@ -7770,7 +7770,7 @@
     },
     {
       #---------------------------------- small object data --------------------------------
-      "key": "container_small_6a",
+      "key": "container_small_4a",
       "name": "Container Small 4A",
       "side": "pickup",
       "artfileroot": "container4lod_a",
@@ -8357,7 +8357,7 @@
       "meshscale": 0.55,
       "radarscale": 2.0,
       "exclusionradius": 1.0,
-      "long_desc": "ARC-class shipyard — Auxiliary Refit and Construction — A modular support platform designed for the assembly, repair, and modernization of military and commercial spacecraft. The class features expandable drydock frames, heavy fabrication gantries, stores modules, and reactor service booms.",
+      "long_desc": "ARC-class shipyard^Auxiliary Refit and Construction^A modular support platform designed for the assembly, repair, and modernization of military and commercial spacecraft. The class features expandable drydock frames, heavy fabrication gantries, stores modules, and reactor service booms.",
       "shields": [
         200
       ],
