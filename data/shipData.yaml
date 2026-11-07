@@ -9,7 +9,7 @@
 #
 
 {
-  "#OrionShipEditor": " This file edited on 2026-04-24 18:09:45 by the Orion Ship Editor Program Version  0.9.5 for Artemis Cosmos v1.2.1",
+  "#OrionShipEditor": " This file edited on 2026-11-07 14:09:41 by the Orion Ship Editor Program Version  0.9.9 for Artemis Cosmos v1.4.0",
   #------------------------------------------------------------------
   "#credits-text": "Designed and programmed by^^Thom Robertson",
 
@@ -153,26 +153,28 @@
       "internalmaph": 30,
       "internalsymmetry": 1,
       "exclusionradius": 120,
-      "shields": [400],
+      "shields": [
+        400
+      ],
       "hullpoints": 100,
       "roles": "station,carrier",
       "baycount": 14,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-                      "position": [
-                                    0.057,
-                                    3.153,
-                                    1.888,
-                                  ],
-                      "color": "red",
-                      "arccolor": "#090",
-                      "cycle_time": 6,
-                      "damage_coeff": 1,
-                      "range": 2000,
-                      "arcwidth": 360,
-                      "barrel_angle": 0
-                    },
+            "position": [
+              0.057,
+              3.153,
+              1.888
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 2000,
+            "arcwidth": 360,
+            "barrel_angle": 0
+          }
         ]
       }
     },
@@ -2951,9 +2953,9 @@
         "beam Primary Beams": [
           {
             "position": [
-                    2.990226,
-                    0.044438,
-                    12.835652
+              2.990226,
+              0.044438,
+              12.835652
             ],
             "color": "red",
             "arccolor": "#500",
@@ -2965,9 +2967,9 @@
           },
           {
             "position": [
-                    -2.990226,
-                    0.044438,
-                    12.835652
+              -2.990226,
+              0.044438,
+              12.835652
             ],
             "color": "red",
             "arccolor": "#500",
@@ -2979,9 +2981,9 @@
           },
           {
             "position": [
-                    4.066936,
-                    0.010443,
-                    9.579298
+              4.066936,
+              0.010443,
+              9.579298
             ],
             "color": "red",
             "arccolor": "#500",
@@ -2993,9 +2995,9 @@
           },
           {
             "position": [
-                    -4.066936,
-                    0.010443,
-                    9.579298
+              -4.066936,
+              0.010443,
+              9.579298
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3007,9 +3009,9 @@
           },
           {
             "position": [
-                    -3.379749,
-                    0.319317,
-                    1.900981
+              -3.379749,
+              0.319317,
+              1.900981
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3021,9 +3023,9 @@
           },
           {
             "position": [
-                    3.379749,
-                    0.319317,
-                    1.900981
+              3.379749,
+              0.319317,
+              1.900981
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3035,9 +3037,9 @@
           },
           {
             "position": [
-                    1.047217,
-                    0.488403,
-                    -10.240839
+              1.047217,
+              0.488403,
+              -10.240839
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3049,9 +3051,9 @@
           },
           {
             "position": [
-                    -1.047217,
-                    0.488403,
-                    -10.240839
+              -1.047217,
+              0.488403,
+              -10.240839
             ],
             "color": "red",
             "arccolor": "#500",
@@ -3063,9 +3065,9 @@
           },
           {
             "position": [
-                    0.0,
-                    0.280601,
-                    -10.793388
+              0.0,
+              0.280601,
+              -10.793388
             ],
             "color": "red",
             "arccolor": "#500",
@@ -9635,96 +9637,99 @@
     {
           #---------------------------------- Pirate Ship data --------------------------------
           "key": "pirate_transport",
-          "name": "Transport",
-          "origin": "Terran",
-          "side": "Pirate",
-          "artfileroot": "ships/transport",
-          "meshscale": 5.82530164718628,
-          "radarscale": 1,
-          "exclusionradius": 55,
-          "meshrotate": 0,
-          "shields": [ 120, 120 ],
-          "hullpoints": 8,
-          "long_desc": "An unarmed colony transport, typically filled with cargo and civilians. Displacement: 80 kt.",
-          "tubecount": 0,
-          "torpedostart": [
-              {
-                  "Homing": 0
-              },
-              {
-                  "Nuke": 0
-              },
-              {
-                  "EMP": 0
-              },
-              {
-                  "Mine": 0
-              },
-          ],
-          "internalmapscale": 1,
-          "internalmapw": 20,
-          "internalmaph": 21,
-          "internalsymmetry": 1,
-          "turn_rate": 0.6,
-          "speed_coeff": 1,
-          "scan_strength_coeff": 1,
-          "ship_energy_cost": 1,
-          "warp_energy_cost": 2,
-          "jump_energy_cost": 1,
-          "roles": "ship",
-          "hull_port_sets": {
-              "exhaust": [
-                  {
-                      "position": [
-                              -1.931,
-                              1.702,
-                              -9.889,
-                      ],
-                      "color": "purple"
-                  },
-                  {
-                      "position": [
-                              1.931,
-                              1.702,
-                              -9.889,
-                      ],
-                      "color": "purple"
-                  },
-                  {
-                      "position": [
-                              -4.566,
-                              1.793,
-                              -9.114,
-                      ],
-                      "color": "purple"
-                  },
-                  {
-                      "position": [
-                              4.566,
-                              1.793,
-                              -9.114,
-                      ],
-                      "color": "purple"
-                  },
-                  {
-                      "position": [
-                              -7.138,
-                              1.812,
-                              -8.379,
-                      ],
-                      "color": "purple"
-                  },
-                  {
-                      "position": [
-                              7.138,
-                              1.812,
-                              -8.379,
-                      ],
-                      "color": "purple"
-                  },
-              ]
+      "name": "Transport",
+      "origin": "Terran",
+      "side": "Pirate",
+      "artfileroot": "ships/transport",
+      "meshscale": 5.82530164718628,
+      "radarscale": 1,
+      "exclusionradius": 55,
+      "meshrotate": 0,
+      "shields": [
+        120,
+        120
+      ],
+      "hullpoints": 8,
+      "long_desc": "An unarmed colony transport, typically filled with cargo and civilians. Displacement: 80 kt.",
+      "tubecount": 0,
+      "torpedostart": [
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1,
+      "internalmapw": 20,
+      "internalmaph": 21,
+      "internalsymmetry": 1,
+      "turn_rate": 0.6,
+      "speed_coeff": 1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 2,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "exhaust": [
+          {
+            "position": [
+              -1.931,
+              1.702,
+              -9.889
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              1.931,
+              1.702,
+              -9.889
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              -4.566,
+              1.793,
+              -9.114
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              4.566,
+              1.793,
+              -9.114
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              -7.138,
+              1.812,
+              -8.379
+            ],
+            "color": "purple"
+          },
+          {
+            "position": [
+              7.138,
+              1.812,
+              -8.379
+            ],
+            "color": "purple"
           }
-      },
+        ]
+      }
+    },
     {
     #---------------------------------- USFP Ship data --------------------------------
       "key": "usfp_patrol_boat",
@@ -9843,11 +9848,283 @@
     },
     {
     #---------------------------------- USFP Ship data --------------------------------
+      "key": "usfp_scow",
+      "name": "Scow",
+      "side": "USFP",
+      "artfileroot": "ships/TSN Mod/USFP/Scow",
+      "meshscale": 128.563674926758,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [
+        60,
+        60.0
+      ],
+      "hullpoints": 2,
+      "long_desc": "USFP Scow. A local transport for every type of good from luxury goods to literal steaming garbage",
+      "tubecount": 0,
+      "torpedostart": [
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "drone_launch_timer": 20,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [],
+        "exhaust": [
+          {
+            "color": "white",
+            "position": [
+              0.0521,
+              0.0001,
+              -0.4649
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              0.0207,
+              0.0018,
+              -0.4739
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              -0.0138,
+              -0.004,
+              -0.3279
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              -0.0498,
+              0.0013,
+              -0.4658
+            ]
+          }
+        ]
+      }
+    },
+    {
+    #---------------------------------- USFP Ship data --------------------------------
+      "key": "usfp_mining",
+      "name": "J17 Mining Ship",
+      "side": "USFP",
+      "artfileroot": "ships/TSN Mod/USFP/USFPMining",
+      "meshscale": 82.8081207275391,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [
+        80,
+        80
+      ],
+      "hullpoints": 2,
+      "long_desc": "The J17 Class Mining ship from Greybeard Shipyards is an ubiquitous short to medium range mining vessel with an impressive cargo hold and well equipped mining lasers, it uses surprisingly little crew making it highly economic.",
+      "tubecount": 0,
+      "torpedostart": [
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "drone_launch_timer": 20,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "arccolor": "#500",
+            "arcwidth": 60,
+            "barrel_angle": -10,
+            "color": "green",
+            "cycle_time": 12,
+            "damage_coeff": 4,
+            "position": [
+              -0.0533,
+              -0.0367,
+              0.4421
+            ],
+            "range": 1000
+          },
+          {
+            "arccolor": "#500",
+            "arcwidth": 60,
+            "barrel_angle": 10,
+            "color": "green",
+            "cycle_time": 12,
+            "damage_coeff": 4,
+            "position": [
+              0.0511,
+              -0.0408,
+              0.4382
+            ],
+            "range": 1000
+          }
+        ],
+        "exhaust": [
+          {
+            "color": "white",
+            "position": [
+              0.085,
+              0.008,
+              -0.4691
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              -0.0851,
+              0.0017,
+              -0.4692
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              0.093,
+              -0.0747,
+              -0.4736
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              -0.0955,
+              -0.0748,
+              -0.4734
+            ]
+          }
+        ]
+      }
+    },
+    {
+    #---------------------------------- USFP Ship data --------------------------------
+      "key": "usfp_colony",
+      "name": "Ancient Vessel",
+      "side": "USFP",
+      "artfileroot": "ships/TSN Mod/USFP/USFPColony",
+      "meshscale": 2.0652494430542,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [
+        80,
+        80
+      ],
+      "hullpoints": 2,
+      "long_desc": "This Vessel is Pre warp. It appears to be of Human construction. It has been damaged. Its purpose is unclear as it has been largely gutted. No matches to currently active ship database",
+      "tubecount": 0,
+      "torpedostart": [
+        {
+          "Homing": 0
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "drone_launch_timer": 20,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [],
+        "exhaust": [
+          {
+            "color": "white",
+            "position": [
+              -8.7511,
+              6.5798,
+              -69.1129
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              -8.5823,
+              -5.3988,
+              -69.0772
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              9.1989,
+              -5.5539,
+              -69.2029
+            ]
+          },
+          {
+            "color": "white",
+            "position": [
+              8.6837,
+              7.5119,
+              -69.4527
+            ]
+          }
+        ]
+      }
+    },
+    {
+    #---------------------------------- USFP Ship data --------------------------------
       "key": "hjorden_cruiser",
       "name": "Hjorden Cruiser",
       "side": "Hjorden",
       "artfileroot": "ships/TSN Mod/Hjorden/HjordenCruiser",
-      "meshscale": 0.2,
+      "meshscale": 1.67023825645447,
       "radarscale": 1.0,
       "exclusionradius": 120.0,
       "meshrotate": 0,
@@ -9886,67 +10163,197 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              68.0,
-              80.0,
-              208.0
-            ],
-            "color": "orange",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
             "arcwidth": 160,
-            "barrel_angle": 60
+            "barrel_angle": 60,
+            "color": "orange",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "position": [
+              -3.1705,
+              0.9133,
+              23.0797
+            ],
+            "range": 1000
           },
           {
-            "position": [
-              -68.0,
-              80.0,
-              208.0
-            ],
-            "color": "orange",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1.2,
-            "range": 1200,
             "arcwidth": 160,
-            "barrel_angle": -60
+            "barrel_angle": -60,
+            "color": "orange",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "position": [
+              2.8637,
+              0.4577,
+              23.385
+            ],
+            "range": 1200
           },
           {
-            "position": [
-              2.0,
-              -30.0,
-              253.0
-            ],
-            "color": "orange",
             "arccolor": "#500",
-            "cycle_time": 4,
-            "damage_coeff": 1.2,
-            "range": 1200,
             "arcwidth": 80,
-            "barrel_angle": 0
+            "barrel_angle": 0,
+            "color": "orange",
+            "cycle_time": 4,
+            "damage_coeff": 4,
+            "position": [
+              -0.2181,
+              1.3112,
+              24.1697
+            ],
+            "range": 1000
           }
         ],
         "exhaust": [
           {
+            "color": "blue",
             "position": [
-              -100.0,
-              20.0,
-              -262.0
-            ],
-            "color": "blue"
+              -0.0222,
+              4.1849,
+              -24.0359
+            ]
           },
           {
+            "color": "blue",
             "position": [
-              100.0,
-              20.0,
-              -262.0
-            ],
-            "color": "blue"
+              0.0362,
+              -4.1606,
+              -24.0579
+            ]
           }
         ]
       }
+    },
+    {
+    #---------------------------------- USFP Ship data --------------------------------
+      "key": "hjorden_heavy_cruiser",
+      "name": "Hjorden Heavy Cruiser",
+      "side": "Hjorden",
+      "artfileroot": "ships/TSN Mod/Hjorden/HjordenHeavyCruiser",
+      "meshscale": 1.85664427280426,
+      "radarscale": 1.0,
+      "exclusionradius": 120.0,
+      "meshrotate": 0,
+      "shields": [
+        80,
+        80
+      ],
+      "hullpoints": 2,
+      "long_desc": "Unclassified Ship. Appears to be of Hjorden manufacture and energy read outs. Armed more heavily then the only known Hjorden Military ship",
+      "tubecount": 1,
+      "torpedostart": [
+        {
+          "Homing": 60
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 12,
+      "internalmaph": 14,
+      "internalsymmetry": 1,
+      "turn_rate": 1,
+      "speed_coeff": 0.8,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1,
+      "warp_energy_cost": 1,
+      "jump_energy_cost": 1,
+      "roles": "ship",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "arccolor": "#500",
+            "arcwidth": 160,
+            "barrel_angle": 50,
+            "color": "orange",
+            "cycle_time": 4,
+            "damage_coeff": 2,
+            "position": [
+              -3.2446,
+              -0.665,
+              20.3077
+            ],
+            "range": 1000
+          },
+          {
+            "arccolor": "#500",
+            "arcwidth": 160,
+            "barrel_angle": 60,
+            "color": "orange",
+            "cycle_time": 4,
+            "damage_coeff": 2,
+            "position": [
+              -3.2735,
+              1.6266,
+              20.1747
+            ],
+            "range": 1200
+          },
+          {
+            "arccolor": "#500",
+            "arcwidth": 160,
+            "barrel_angle": -60,
+            "color": "orange",
+            "cycle_time": 4,
+            "damage_coeff": 2,
+            "position": [
+              3.081,
+              -0.381,
+              20.4317
+            ],
+            "range": 1200
+          },
+          {
+            "arccolor": "#500",
+            "arcwidth": 160,
+            "barrel_angle": -75,
+            "color": "orange",
+            "cycle_time": 1,
+            "damage_coeff": 2,
+            "position": [
+              3.102,
+              1.9956,
+              20.2164
+            ],
+            "range": 1200
+          }
+        ],
+        "exhaust": [
+          {
+            "color": "blue",
+            "position": [
+              12.1598,
+              3.7677,
+              -21.0777
+            ]
+          },
+          {
+            "color": "blue",
+            "position": [
+              -12.2292,
+              4.0545,
+              -21.0749
+            ]
+          },
+          {
+            "color": "blue",
+            "position": [
+              0.0594,
+              1.2562,
+              -21.4445
+            ]
+          }
+        ]
+      },
+      "drone_launch_timer": 18.0
     },
     {
     #---------------------------------- TSN Ship data --------------------------------
@@ -10935,6 +11342,84 @@
         3000,
         3000
       ]
+    },
+    {
+      "key": "caltron_u2",
+      "name": "Duo",
+      "side": "Caltron",
+      "artfileroot": "ships/TSN Mod/Caltron/U2",
+      "meshscale": 0.03,
+      "radarscale": 1.2,
+      "exclusionradius": 40.0,
+      "hullpoints": 0,
+      "long_desc": "Two Combind Caltron Primarys, a minor threat.",
+      "tubecount": 0,
+      "baycount": 0,
+      "internalmapscale": 1.0,
+      "internalmapw": 0,
+      "internalmaph": 0,
+      "internalsymmetry": 1,
+      "turn_rate": 0.0,
+      "speed_coeff": 1.0,
+      "scan_strength_coeff": 1.0,
+      "ship_energy_cost": 1.0,
+      "warp_energy_cost": 1.0,
+      "jump_energy_cost": 1.0,
+      "roles": "",
+      "drone_launch_timer": 0,
+      "shields_rear": "",
+      "health": "",
+      "heal_rate": "",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "arccolor": "red",
+            "arcwidth": 120.0,
+            "barrel_angle": 0.0,
+            "color": "purple",
+            "cycle_time": 5.0,
+            "damage_coeff": 1.5,
+            "position": [
+              -187.6972,
+              18.908,
+              73.7455
+            ],
+            "range": 1000.0
+          },
+          {
+            "arccolor": "orange",
+            "arcwidth": 60.0,
+            "barrel_angle": 0.0,
+            "color": "purple",
+            "cycle_time": 5.0,
+            "damage_coeff": 1.5,
+            "position": [
+              212.6706,
+              16.2529,
+              73.7455
+            ],
+            "range": 1200.0
+          }
+        ],
+        "exhaust": [
+          {
+            "color": "",
+            "position": [
+              -181.6039,
+              7.6545,
+              -73.7455
+            ]
+          },
+          {
+            "color": "",
+            "position": [
+              233.3069,
+              0.8974,
+              -73.7455
+            ]
+          }
+        ]
+      }
     },
     #---------------------------------- TSN Mod Debris --------------------------------
     {
