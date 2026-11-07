@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "modId": "tsn.cosmos.mod",
+  "versions": [
+    {
+      "version": "Defiance",
+      "gameVersionRange": ">=1.4.0 <=1.4.0",
+      "releaseUrl": "https://github.com/tsnrp/TSN-Cosmos-Mod/releases/tag/Defiance",
+      "packageSource": "repository",
+      "releaseDate": "2026-11-07"
+    }
+  ]
+}

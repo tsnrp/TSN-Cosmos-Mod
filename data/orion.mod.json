@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "id": "tsn.cosmos.mod",
+  "name": "TSN Cosmos Mod",
+  "version": "Defiance",
+  "description": "Mod for TSN Rp Group",
+  "authors": [
+    {
+      "name": "Xavier Wise, Fish Evans"
+    }
+  ],
+  "game": {
+    "id": "artemis-cosmos",
+    "versionRange": ">=1.4.0 <=1.4.0",
+    "compatibilityNote": "Created from a preserved direct-overlay data layout. Orion has not independently verified the declared game-version range."
+  },
+  "content": [
+    {
+      "source": "data",
+      "target": "data"
+    }
+  ],
+  "dependencies": [],
+  "incompatibilities": [],
+  "load": {
+    "after": [],
+    "before": []
+  },
+  "tags": [
+    "direct-overlay"
+  ],
+  "releaseDate": "2026-11-07",
+  "homepage": "https://terranstellarnavy.org/",
+  "updates": {
+    "githubRepository": "https://github.com/tsnrp/TSN-Cosmos-Mod/",
+    "compatibilityAsset": "orion-compatibility.json"
+  }
+}

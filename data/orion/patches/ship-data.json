@@ -1,0 +1,78 @@
+{
+  "collection": "#ship-list",
+  "formatVersion": 1,
+  "keyField": "key",
+  "operations": [
+    {
+      "op": "replace-record",
+      "key": "container_small_6a",
+      "expected": {
+        "artfileroot": "container6lod_a",
+        "exclusionradius": 0,
+        "interactionradius": 603,
+        "key": "container_small_6a",
+        "meshscale": 5,
+        "name": "Container Small 6A",
+        "radarscale": 1,
+        "side": "pickup"
+      },
+      "record": {
+        "artfileroot": "container6lod_a",
+        "exclusionradius": 0,
+        "interactionradius": 603,
+        "key": "container_small_6z",
+        "meshscale": 5,
+        "name": "Container Small 6A",
+        "radarscale": 1,
+        "side": "pickup"
+      }
+    },
+    {
+      "op": "add",
+      "record": {
+        "artfileroot": "custom/new_ship",
+        "exclusionradius": 50,
+        "hull_port_sets": {
+          "exhaust": [
+            {
+              "color": "",
+              "position": [
+                -0.9301,
+                0.1885,
+                0.5404
+              ]
+            },
+            {
+              "color": "",
+              "position": [
+                -0.9432,
+                0.0641,
+                0.0045
+              ]
+            },
+            {
+              "color": "",
+              "position": [
+                -0.9293,
+                0.187,
+                -0.5337
+              ]
+            }
+          ]
+        },
+        "hullpoints": 3,
+        "key": "Hijorden_HeavyC",
+        "meshscale": 0.171711415052414,
+        "name": "Heavy Cruiser",
+        "radarscale": 1,
+        "shields": [
+          120,
+          120
+        ],
+        "side": "Hjorden",
+        "speed_coeff": 1,
+        "turn_rate": 1
+      }
+    }
+  ]
+}

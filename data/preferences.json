@@ -136,6 +136,7 @@
 
   "player-vision-base-distance": 30000,
   "player-vision-science-coeff": 5,
+  "friendly-unit-vision-distance": 15000,
 
   "clientContactDecayDelay": 240,
   "clientContactOldThreshold": 200,
@@ -156,8 +157,8 @@
   //       3 sub-folders, "high", "low", and "medium".  The songs in these folders should conform to high, medium, or low
   //       excitement levels.  Next to these three subfolders, inside your custom music folder, should be 4 song files;
   //       "main", "start", "failure", and "victory".   ALL music files should be in the OGG format, and have the .OGG suffix.
-  "music_base_folder": "TSNMod",
-  //"music_base_folder": "Artemis2",
+  "music_base_folder": "data/audio/music/TSNMod",
+  //"music_base_folder": "data/audio/music/Artemis2",
 
   // game sfx
   "player_engine_loop_base": "ship_loop",
